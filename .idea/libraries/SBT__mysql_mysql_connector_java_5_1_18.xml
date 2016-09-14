@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: mysql:mysql-connector-java:5.1.18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

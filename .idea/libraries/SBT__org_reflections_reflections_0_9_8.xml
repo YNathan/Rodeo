@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.reflections:reflections:0.9.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/local/org.reflections/reflections/0.9.8/jars/reflections.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

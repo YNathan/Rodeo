@@ -1,0 +1,48 @@
+</br></br></br></br>
+<div class="flex-container">
+    <div layout="row" md-colors="{color: 'red-A100', border-color: 'primary-600'}">
+        <div flex="40">
+            <form ng-submit="register()">
+                <md-input-container>
+                    <label> User Name :</label>
+                    <input type="text" ng-model="username" name="text"  placeholder="שם משתמש" required/>
+                </md-input-container>
+
+                <md-input-container>
+                    <label> First Name :</label>
+                    <input type="text" ng-model="firstname" name="text"  placeholder="שם פרטי" required/>
+                </md-input-container>
+
+                <md-input-container>
+                    <label> Last Name :</label>
+                    <input type="text" ng-model="lastname" name="text"  placeholder="שם משפחה" required/>
+                </md-input-container>
+
+                <md-input-container>
+                    <label> Telephone :</label>
+                    <input type="number" ng-model="telephone" name="text"  placeholder="טלפון" required/>
+                </md-input-container>
+                <md-input-container>
+                    <label> Email &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; :</label>
+                    <input type="email" ng-model="email" name="text"  placeholder="אימייל" required/>
+                </md-input-container>
+                <md-input-container>
+                    <label> birthdate &nbsp;&nbsp; :</label>
+                    <input type="date" ng-model="birthdate"  name="text" required/>
+                </md-input-container>
+                <md-input-container>
+                    <label> password &nbsp;&nbsp; :</label>
+                    <input type="text" ng-model="password" name="text"  placeholder="סיסמא" required/>
+                </md-input-container>
+                <md-input-container>
+                    <md-button type="submit" id="submit">שמור</md-button>
+                </md-input-container>
+            </form>
+        </div>
+
+        <div flex hide-sm hide-xs>
+            <!--img src="images/MyProfile.png" width="180" height="320"-->
+        </div>
+    </div>
+
+</div>

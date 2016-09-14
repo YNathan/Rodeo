@@ -1,0 +1,10 @@
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="deprecationWarnings" value="true"/>
+    <option name="uncheckedWarnings" value="true"/>
+    <parameters>
+      <parameter value="-deprecation"/>
+      <parameter value="-unchecked"/>
+    </parameters>
+  </component>
+</project>

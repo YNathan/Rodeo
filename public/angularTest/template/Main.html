@@ -1,0 +1,72 @@
+<div layout="row" layout-wrap>
+    <div flex="30">
+    </div>
+    <div flex="45">
+        <center><label class="myFont">Wellcom To Your Account</label></center>
+        <center>
+            <div class="myFont">{{message}}</div>
+        </center>
+    </div>
+    <div flex="25">
+    </div>
+    <div flex="33">
+        <form ng-submit="submit()">
+
+            <label class="myFont">choose a debter: </label>
+
+            <!--<select class="textar" name="mySelect" id="mySelect"-->
+            <!--ng-options="option.name for option in data.availableOptions track by option.id"-->
+            <!--ng-model="data.selectedOption" ng-change="updateName()" style="background-color:#E6E6E6"></select>-->
+
+            <md-input-container>
+                <md-select placeholder="Assign to user" ng-model="data.selectedOption">
+                    <md-option ng-value="user" ng-repeat="user in data.availableOptions">{{user.name}}</md-option>
+                </md-select>
+            </md-input-container>
+
+
+            </br>
+            <label class="myFont">choice an amount : </label>
+
+            <input type="number" style="" ng-model="Amount" name="text" class="textar" placeholder="סכום"
+                   ng-change="updateBeforeInput()" required/> </br>
+            <label class="myFont">{{alertBeforeInput}}</label>
+            </br>
+            <md-button id="submit" ng-click="submit()"/>
+            Yes I Confirm</md-button></br>
+        </form>
+    </div>
+    <div flex="66">
+        <table class="rwd-table">
+            <h1>Debts Table</h1>
+            <tr>
+                <th>Debter</th>
+                <th>Entitled</th>
+                <th>Amount</th>
+            </tr>
+            <tr ng-repeat="x in debts">
+                <td>{{ x.Debter }}</td>
+                <td>{{ x.Entitled }}</td>
+                <td>{{ x.Amount }}</td>
+                <td>
+                    <button class="myButton" ng-click="pay(x.Debter,x.Entitled,x.Amount)">pay</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div flex="50">
+        <video width="320" height="240" controls>
+            <source src="videos/AirForceIsraelyArchive.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div flex>
+
+        <center><input type="file" name="file" onchange="angular.element(this).scope().uploadFile(this.files)"/>
+        </center>
+        <center>
+            <md-button class="myButton" ng-click="goToUserInformation()">user information</md-button>
+        </center>
+    </div>
+</div>

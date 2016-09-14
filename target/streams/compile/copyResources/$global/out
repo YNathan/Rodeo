@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\Rodeo2016-07-28\preprod\conf\application.conf.txt,C:\devl\work\Rodeo2016-07-28\preprod\target\scala-2.10\classes\application.conf.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\Rodeo2016-07-28\preprod\conf\application.conf~,C:\devl\work\Rodeo2016-07-28\preprod\target\scala-2.10\classes\application.conf~)[0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\Rodeo2016-07-28\preprod\conf\logger.xml,C:\devl\work\Rodeo2016-07-28\preprod\target\scala-2.10\classes\logger.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\Rodeo2016-07-28\preprod\conf\routes,C:\devl\work\Rodeo2016-07-28\preprod\target\scala-2.10\classes\routes)[0m
