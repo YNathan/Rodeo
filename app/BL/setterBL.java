@@ -24,7 +24,7 @@ public class setterBL {
 	 */
 	public boolean insertGelt(int nDebterName, int nAmount, int nEntitledName) {
 		boolean isInserted = false;
-		Gelt m_gelt = new Gelt(nDebterName, nAmount, nEntitledName);
+		Gelt m_gelt = new Gelt(nDebterName, nAmount, nEntitledName,1);
 		// An array that will contain the new gelts that we will need to add to
 		// the data-base
 		ArrayList<Gelt> geltsAdded = new ArrayList<>();
@@ -79,7 +79,7 @@ public class setterBL {
 						isUpdate = true;
 					} else if ((nNewAmount > 0)) {
 						currGelt.setnAmount(nNewAmount);
-						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), m_gelt.getAmount(), currGelt.getEntitledID());
+						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), m_gelt.getAmount(), currGelt.getEntitledID(),currGelt.getGroupID());
 						if ((!foundChavrousse(m_gelts, geltToAdd))
 								&& (!foundSheyteGomour(m_gelts, m_geltHelper, geltToAdd))) {
 							m_geltHelper.add(geltToAdd);
@@ -89,7 +89,7 @@ public class setterBL {
 					} else if ((nNewAmount < 0)) {
 						currGelt.setnDebterID(m_gelt.getDebterID());
 
-						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID());
+						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID(),currGelt.getGroupID());
 						if ((!foundChavrousse(m_gelts, geltToAdd))
 								&& (!foundSheyteGomour(m_gelts, m_geltHelper, geltToAdd))) {
 							m_geltHelper.add(geltToAdd);
@@ -104,7 +104,7 @@ public class setterBL {
 					} else if ((nNewAmount > 0)) {
 						currGelt.setnAmount(nNewAmount);
 
-						Gelt geltToAdd = new Gelt(currGelt.getDebterID(), m_gelt.getAmount(), m_gelt.getEntitledID());
+						Gelt geltToAdd = new Gelt(currGelt.getDebterID(), m_gelt.getAmount(), m_gelt.getEntitledID(),m_gelt.getGroupID());
 						if ((!foundChavrousse(m_gelts, geltToAdd))
 								&& (!foundSheyteGomour(m_gelts, m_geltHelper, geltToAdd))) {
 							m_geltHelper.add(geltToAdd);
@@ -114,7 +114,7 @@ public class setterBL {
 					} else if ((nNewAmount < 0)) {
 						currGelt.setnEntitledID(m_gelt.getEntitledID());
 
-						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID());
+						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID(),m_gelt.getGroupID());
 						if ((!foundChavrousse(m_gelts, geltToAdd))
 								&& (!foundSheyteGomour(m_gelts, m_geltHelper, geltToAdd))) {
 							m_geltHelper.add(geltToAdd);
@@ -183,7 +183,7 @@ public class setterBL {
 						isUpdate = true;
 					} else if (nNewAmount < 0) {
 						nIndexToRemove = m_gelts.indexOf(currGelt);
-						m_geltHelper.add(new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID()));
+						m_geltHelper.add(new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID(),m_gelt.getGroupID()));
 						isUpdate = true;
 					}
 				}
@@ -261,7 +261,7 @@ public class setterBL {
 		if ((getterBL.isUserNameAlreadyExist(szDebterName)) && (getterBL.isUserNameAlreadyExist(szEntitledName))) {
 			// check if was inserted
 			bWasAdded = setterDB.setTempGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
-					getterBL.getIdByName(szEntitledName)));
+					getterBL.getIdByName(szEntitledName),1));
 		}
 		return bWasAdded;
 	}
@@ -281,7 +281,7 @@ public class setterBL {
 
 			// check if was deleted
 			bWasDeleted = setterDB.deleteTempGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
-					getterBL.getIdByName(szEntitledName)));
+					getterBL.getIdByName(szEntitledName),1));
 		}
 		return bWasDeleted;
 	}
@@ -300,7 +300,7 @@ public class setterBL {
 		if ((getterBL.isUserNameAlreadyExist(szDebterName)) && (getterBL.isUserNameAlreadyExist(szEntitledName))) {
 			// check if was deleted
 			bWasDeleted = setterDB.deleteGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
-					getterBL.getIdByName(szEntitledName)));
+					getterBL.getIdByName(szEntitledName),1));
 		}
 		return bWasDeleted;
 	}

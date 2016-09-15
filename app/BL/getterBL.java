@@ -274,6 +274,21 @@ public class getterBL {
         return sbUserInformationToReturn;
     }
 
+    /***
+     *
+     * @param szUserName the name of the owner
+     * @return all personal information about a user
+     */
+    public StringBuilder getOwnerGroupInformation(String szUserName) {
+        // INFO
+        play.Logger.info("<BUSINESS_LOGIC> Get user information with user name : " + szUserName);
+        int nUserId = getterDB.getUserIdByName(szUserName);
+        StringBuilder sbUserInformationToReturn = new StringBuilder();
+        User userToReturn = getterDB.getUser(nUserId);
+        sbUserInformationToReturn.append("{ \"user\":[ {\"user_name\":\"" + userToReturn.getUserName() + "\",\"email\":\"" + userToReturn.getEmail() + "\",\"telephone\":\"" + userToReturn.getTelephone() + "\"} ]}");
+        return sbUserInformationToReturn;
+    }
+
     public StringBuilder getGroupsUser(String szUserName) {
         // INFO
         play.Logger.info("<BUSINESS_LOGIC> Get the groups information for the user name : " + szUserName);
@@ -300,9 +315,6 @@ public class getterBL {
 
         }
             sbUserInformationToReturn.append(" ]}");
-
-
-
         return sbUserInformationToReturn;
     }
 }

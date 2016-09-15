@@ -28,9 +28,9 @@ public class insertingTest {
 	public void before() {
 		setterDB setterDB = new setterDB();
 		ArrayList<Gelt> getlsToInput = new ArrayList<>();
-		getlsToInput.add(new Gelt(2, 100, 3));
-		getlsToInput.add(new Gelt(6, 150, 7));
-		getlsToInput.add(new Gelt(9, 50, 10));
+		getlsToInput.add(new Gelt(2, 100, 3,1));
+		getlsToInput.add(new Gelt(6, 150, 7,1));
+		getlsToInput.add(new Gelt(9, 50, 10,1));
 		setterDB.setGelts(getlsToInput);
 	}
 
@@ -38,8 +38,8 @@ public class insertingTest {
 	@Test
 	public void insertEqualToZeroTest() {
 		boolean isExpectedResaultFound = false;
-		Gelt geltEqualToZero = new Gelt(1, 100, 2);
-		Gelt expectedGelt = new Gelt(1, 100, 3);
+		Gelt geltEqualToZero = new Gelt(1, 100, 2,1);
+		Gelt expectedGelt = new Gelt(1, 100, 3,1);
 		setterBL.insertGelt(geltEqualToZero.getDebterID(), geltEqualToZero.getAmount(),
 				geltEqualToZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();
@@ -58,9 +58,9 @@ public class insertingTest {
 	public void insertPlusThanZeroTest() {
 		boolean isExpectedAddedResaultFound = false;
 		boolean isExpectedEditedResaultFound = false;
-		Gelt geltPlusThanZero = new Gelt(8, 100, 6);
-		Gelt expectedEditedGelt = new Gelt(6, 50, 7);
-		Gelt expectedGelt = new Gelt(8, 100, 7);
+		Gelt geltPlusThanZero = new Gelt(8, 100, 6,1);
+		Gelt expectedEditedGelt = new Gelt(6, 50, 7,1);
+		Gelt expectedGelt = new Gelt(8, 100, 7,1);
 		setterBL.insertGelt(geltPlusThanZero.getDebterID(), geltPlusThanZero.getAmount(),
 				geltPlusThanZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();
@@ -87,9 +87,9 @@ public class insertingTest {
 	public void insertMinusThanZeroTest() {
 		boolean isExpectedAddedResaultFound = false;
 		boolean isExpectedEditedResaultFound = false;
-		Gelt geltMinusThanZero = new Gelt(11, 100, 9);
-		Gelt expectedEditedGelt = new Gelt(11, 50, 10);
-		Gelt expectedGelt = new Gelt(11, 50, 9);
+		Gelt geltMinusThanZero = new Gelt(11, 100, 9,1);
+		Gelt expectedEditedGelt = new Gelt(11, 50, 10,1);
+		Gelt expectedGelt = new Gelt(11, 50, 9,1);
 		setterBL.insertGelt(geltMinusThanZero.getDebterID(), geltMinusThanZero.getAmount(),
 				geltMinusThanZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();
@@ -117,7 +117,7 @@ public class insertingTest {
 	@Test
 	public void insertEqualZeroTestSamePersonne() {
 		System.out.println("9,50,10");
-		Gelt geltPlusThanZero = new Gelt(10, 50, 9);
+		Gelt geltPlusThanZero = new Gelt(10, 50, 9,1);
 		setterBL.insertGelt(geltPlusThanZero.getDebterID(), geltPlusThanZero.getAmount(),
 				geltPlusThanZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();
@@ -130,7 +130,7 @@ public class insertingTest {
 	@Test
 	public void insertMoreThanZeroTestSamePersonne() {
 		System.out.println("9,50,10");
-		Gelt geltPlusThanZero = new Gelt(10, 25, 9);
+		Gelt geltPlusThanZero = new Gelt(10, 25, 9,1);
 		setterBL.insertGelt(geltPlusThanZero.getDebterID(), geltPlusThanZero.getAmount(),
 				geltPlusThanZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();
@@ -143,7 +143,7 @@ public class insertingTest {
 	@Test
 	public void insertMinusThanZeroTestSamePersonne() {
 		System.out.println("9,50,10");
-		Gelt geltPlusThanZero = new Gelt(10, 100, 9);
+		Gelt geltPlusThanZero = new Gelt(10, 100, 9,1);
 		setterBL.insertGelt(geltPlusThanZero.getDebterID(), geltPlusThanZero.getAmount(),
 				geltPlusThanZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();
@@ -156,7 +156,7 @@ public class insertingTest {
 	@Test
 	public void insertHavrousse() {
 		System.out.println("9,50,10");
-		Gelt geltPlusThanZero = new Gelt(9, 50, 10);
+		Gelt geltPlusThanZero = new Gelt(9, 50, 10,1);
 		setterBL.insertGelt(geltPlusThanZero.getDebterID(), geltPlusThanZero.getAmount(),
 				geltPlusThanZero.getEntitledID());
 		ArrayList<Gelt> geltLst = new getterDB().getGelts();

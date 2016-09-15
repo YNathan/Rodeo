@@ -9,12 +9,16 @@ public class Gelt {
 	private int nDebterID = -1;
 	private int nAmount = -1;
 	private int nEntitledID = -1;
+	private int nGroupID = -1;
 
-	public Gelt(int nDebterID, int nAmount, int nEntitledID) {
+
+
+	public Gelt(int nDebterID, int nAmount, int nEntitledID,int nGroupID) {
 		super();
 		this.nDebterID = nDebterID;
 		this.nAmount = nAmount;
 		this.nEntitledID = nEntitledID;
+		this.nGroupID = nGroupID;
 	}
 
 	public Gelt() {
@@ -43,10 +47,22 @@ public class Gelt {
 	public void setnEntitledID(int nEntitledID) {
 		this.nEntitledID = nEntitledID;
 	}
+	public int getGroupID() {
+		return nGroupID;
+	}
+
+	public void setnGroupID(int nGroupID) {
+		this.nGroupID = nGroupID;
+	}
 
 	@Override
 	public String toString() {
-		return "Gelt [DebterID=" + nDebterID + ", Amount=" + nAmount + ", EntitledID=" + nEntitledID + "]";
+		return "Gelt{" +
+				"nDebterID=" + nDebterID +
+				", nAmount=" + nAmount +
+				", nEntitledID=" + nEntitledID +
+				", nGroupID=" + nGroupID +
+				'}';
 	}
 
 }

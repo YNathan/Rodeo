@@ -2,14 +2,113 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(C:\devl\work\Rodeo2016-07-28\preprod\app\Entity\Gelt.java, C:\devl\work\Rodeo2016-07-28\preprod\app\DB\setterDB.java)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\devl\work\Rodeo2016-07-28\preprod\app\Entity\Gelt.java, C:\devl\work\Rodeo2016-07-28\preprod\app\DB\setterDB.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\devl\work\Rodeo2016-07-28\preprod\app\Entity\Gelt.java, C:\devl\work\Rodeo2016-07-28\preprod\app\DB\setterDB.java)[0m
+[0m[[0minfo[0m] [0mCompiling 2 Java sources to C:\devl\work\Rodeo2016-07-28\preprod\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/User/AppData/Local/Temp/sbt_8bd5d4e3/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.889945286 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.140812352 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(C:\devl\work\Rodeo2016-07-28\preprod\app\Entity\Gelt.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(C:\devl\work\Rodeo2016-07-28\preprod\app\DB\getterDB.java, C:\devl\work\Rodeo2016-07-28\preprod\app\BL\getterBL.java, C:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java, C:\devl\work\Rodeo2016-07-28\preprod\app\DB\setterDB.java)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set(C:\devl\work\Rodeo2016-07-28\preprod\app\DB\getterDB.java, C:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java, C:\devl\work\Rodeo2016-07-28\preprod\app\BL\getterBL.java, C:\devl\work\Rodeo2016-07-28\preprod\app\DB\setterDB.java)[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0minfo[0m] [0mCompiling 4 Java sources to C:\devl\work\Rodeo2016-07-28\preprod\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/User/AppData/Local/Temp/sbt_7e1e8ac7/argfile[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\DB\getterDB.java:310: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m                gelts.add(new Gelt(resultSet.getInt("debter_id"), resultSet.getInt("amount"),[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\DB\getterDB.java:347: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m                gelts.add(new Gelt(resultSet.getInt("debter_id"), resultSet.getInt("amount"),[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:27: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m		Gelt m_gelt = new Gelt(nDebterName, nAmount, nEntitledName);[0m
+[0m[[31merror[0m] [0m		              ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:82: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), m_gelt.getAmount(), currGelt.getEntitledID());[0m
+[0m[[31merror[0m] [0m						                 ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:92: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID());[0m
+[0m[[31merror[0m] [0m						                 ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:107: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m						Gelt geltToAdd = new Gelt(currGelt.getDebterID(), m_gelt.getAmount(), m_gelt.getEntitledID());[0m
+[0m[[31merror[0m] [0m						                 ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:117: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID());[0m
+[0m[[31merror[0m] [0m						                 ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:186: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m						m_geltHelper.add(new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID()));[0m
+[0m[[31merror[0m] [0m						                 ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:263: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m			bWasAdded = setterDB.setTempGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),[0m
+[0m[[31merror[0m] [0m			                                 ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:283: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m			bWasDeleted = setterDB.deleteTempGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),[0m
+[0m[[31merror[0m] [0m			                                      ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mC:\devl\work\Rodeo2016-07-28\preprod\app\BL\setterBL.java:302: error: no suitable constructor found for Gelt(int,int,int)[0m
+[0m[[31merror[0m] [0m			bWasDeleted = setterDB.deleteGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),[0m
+[0m[[31merror[0m] [0m			                                  ^[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt(int,int,int,int) is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0m    constructor Gelt.Gelt() is not applicable[0m
+[0m[[31merror[0m] [0m      (actual and formal argument lists differ in length)[0m
+[0m[[31merror[0m] [0mNote: C:\devl\work\Rodeo2016-07-28\preprod\app\BL\getterBL.java uses or overrides a deprecated API.[0m
+[0m[[31merror[0m] [0mNote: Recompile with -Xlint:deprecation for details.[0m
+[0m[[31merror[0m] [0m11 errors[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) javac returned nonzero exit code[0m

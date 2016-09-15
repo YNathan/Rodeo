@@ -1,3 +1,6 @@
+<md-button class="menu" ng-click="toggleLeft()">
+    <md-icon md-svg-icon="menu"></md-icon>
+</md-button>
 <div layout="row" layout-wrap>
     <div flex="30">
     </div>
@@ -61,12 +64,36 @@
             Your browser does not support the video tag.
         </video>
     </div>
-    <div flex>
 
-        <center><input type="file" name="file" onchange="angular.element(this).scope().uploadFile(this.files)"/>
-        </center>
-        <center>
-            <md-button class="myButton" ng-click="goToUserInformation()">user information</md-button>
-        </center>
-    </div>
+</div>
+<div class="container" layout="row" flex>
+
+
+    <md-sidenav class="md-sidenav-left" md-component-id="left" md-disable-backdrop="" md-whiteframe="4">
+        <md-toolbar class="md-theme-indigo">
+            <h1 class="md-toolbar-tools">Menu</h1>
+        </md-toolbar>
+
+        <md-content layout-margin="" align="center">
+            <md-button class="account_circle" ng-click="goToUserInformation()">
+                <md-icon md-svg-icon="account_circle" align="center"></md-icon>
+                <div>{{userName}} Information</div>
+            </md-button>
+            </br>
+            <md-button class="group" ng-click="goToGroups()">
+                <md-icon md-svg-icon="group"></md-icon>
+                <div> Manage Groups</div>
+            </md-button>
+            </br>
+            <md-button class="attach_money" ng-click="goToMain()">
+                <md-icon md-svg-icon="attach_money"></md-icon>
+                <div>Bank Manager</div>
+            </md-button>
+            </br>
+
+        </md-content>
+
+    </md-sidenav>
+
+
 </div>

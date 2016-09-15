@@ -122,5 +122,16 @@ public class getter extends Controller {
                     .badRequest("Null pointer screw you! \nyou send your request with an empty user-name!");
         }
     }
-
+    public static Result getOwnerGroupInformation(String szUserName) {
+        play.Logger.info("<GETTER> " + request().remoteAddress() + " ask owner information on the user : "+ szUserName);
+        System.out.println(new SimpleDateFormat("HH:mm:ss").format(Calendar.getInstance().getTime()) + " <GETTER> " + szUserName + " in IP : " + request().remoteAddress() + " : ask information on owner : " + szUserName);
+        if (szUserName != null) {
+            String szResponce = getterBL.getOwnerGroupInformation(szUserName).toString();
+            play.Logger.info("<GETTER> <DATA>" + szResponce);
+            return play.mvc.Results.ok(szResponce);
+        } else {
+            return play.mvc.Results
+                    .badRequest("Null pointer screw you! \nyou send your request with an empty user-name!");
+        }
+    }
 }

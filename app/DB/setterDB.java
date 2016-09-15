@@ -44,10 +44,11 @@ public class setterDB {
             play.Logger.info("Insert new gelts to the data-base");
             for (Gelt currGelts : m_gelts) {
                 // PreparedStatements can use variables and are more efficient
-                preparedStatement = connect.prepareStatement("insert into " + TABLE_BANK_NAME + " values (? , ?, ?)");
+                preparedStatement = connect.prepareStatement("insert into " + TABLE_BANK_NAME + " values (? , ?, ?,?)");
                 preparedStatement.setInt(1, currGelts.getDebterID());
                 preparedStatement.setInt(2, currGelts.getAmount());
                 preparedStatement.setInt(3, currGelts.getEntitledID());
+                preparedStatement.setInt(4, currGelts.getGroupID());
                 preparedStatement.executeUpdate();
             }
 
@@ -79,10 +80,11 @@ public class setterDB {
             play.Logger.info("Insert new temp gelt to the data-base");
 
             // PreparedStatements can use variables and are more efficient
-            preparedStatement = connect.prepareStatement("insert into " + TABLE_TEMP_DEBTS_NAME + " values (? , ?, ?)");
+            preparedStatement = connect.prepareStatement("insert into " + TABLE_TEMP_DEBTS_NAME + " values (? , ?, ?,?)");
             preparedStatement.setInt(1, m_gelt.getDebterID());
             preparedStatement.setInt(2, m_gelt.getAmount());
             preparedStatement.setInt(3, m_gelt.getEntitledID());
+            preparedStatement.setInt(4, m_gelt.getGroupID());
             preparedStatement.executeUpdate();
 
         } catch (Exception e) {
@@ -113,10 +115,11 @@ public class setterDB {
 
             // PreparedStatements can use variables and are more efficient
             preparedStatement = connect.prepareStatement("delete from " + TABLE_TEMP_DEBTS_NAME
-                    + " where debter_id = ? and amount = ? and entitled_id = ? ");
+                    + " where debter_id = ? and amount = ? and entitled_id = ? and group_id = ? ");
             preparedStatement.setInt(1, m_gelt.getDebterID());
             preparedStatement.setInt(2, m_gelt.getAmount());
             preparedStatement.setInt(3, m_gelt.getEntitledID());
+            preparedStatement.setInt(4, m_gelt.getGroupID());
             preparedStatement.executeUpdate();
 
         } catch (Exception e) {
@@ -151,14 +154,16 @@ public class setterDB {
 
             // PreparedStatements can use variables and are more efficient
             preparedStatement = connect.prepareStatement("UPDATE " + TABLE_BANK_NAME
-                    + " SET debter_id = ? , amount = ? , entitled_id = ?  WHERE debter_id = ? AND amount = ? AND entitled_id = ? ;");
+                    + " SET debter_id = ? , amount = ? , entitled_id = ? , group_id = ? WHERE debter_id = ? AND amount = ? AND entitled_id = ? AND group_id = ? ;");
 
             preparedStatement.setInt(1, m_newGelt.getDebterID());
             preparedStatement.setInt(2, m_newGelt.getAmount());
             preparedStatement.setInt(3, m_newGelt.getEntitledID());
-            preparedStatement.setInt(4, m_origianlGelt.getDebterID());
-            preparedStatement.setInt(5, m_origianlGelt.getAmount());
-            preparedStatement.setInt(6, m_origianlGelt.getEntitledID());
+            preparedStatement.setInt(4, m_newGelt.getGroupID());
+            preparedStatement.setInt(5, m_origianlGelt.getDebterID());
+            preparedStatement.setInt(6, m_origianlGelt.getAmount());
+            preparedStatement.setInt(7, m_origianlGelt.getEntitledID());
+            preparedStatement.setInt(8, m_origianlGelt.getGroupID());
             preparedStatement.executeUpdate();
 
         } catch (Exception e) {

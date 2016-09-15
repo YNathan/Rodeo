@@ -19,6 +19,7 @@ POST        /CONFIRMATION/:szDebterName/:szAmount/:szEntitledName               
 POST        /NOT_CONFIRMATION/:szDebterName/:szAmount/:szEntitledName                              controllers.setter.notConfirm(szDebterName:String,szAmount:String,szEntitledName:String)
 POST        /PAY/:szDebterName/:szAmount/:szEntitledName                                           controllers.setter.pay(szDebterName:String,szAmount:String,szEntitledName:String)
 GET         /GET_USER_INFORMATION/:szUserName                                                      controllers.getter.getUserInformation(szUserName:String)
+GET         /GET_OWNER_INFORMATION/:szUserName                                                     controllers.getter.getOwnerGroupInformation(szUserName:String)
 GET         /GET_GROUPS_INFORMATION/:szUserName                                                    controllers.getter.getGroupsUser(szUserName:String)
 # Upload file to the server
 POST        /upload                                                                                controllers.setter.uploadFile

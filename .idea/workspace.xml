@@ -2,114 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e179153-1db0-409b-be5b-9ee4f0cd9744" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/BL/getterBL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/BL/mailBL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/BL/setterBL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/DB/getterDB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/DB/setterDB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Entity/Gelt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Entity/Group.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Entity/UserLogin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Entity/UsersGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$documentation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$11$$anonfun$apply$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12$$anonfun$apply$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$13$$anonfun$apply$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$14$$anonfun$apply$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$15$$anonfun$apply$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$16$$anonfun$apply$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$17$$anonfun$apply$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$18$$anonfun$apply$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$19$$anonfun$apply$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6$$anonfun$apply$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$8$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$routes$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$$anonfun$setPrefix$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Routes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/application.conf.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ReverseApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ReverseAssets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Reversegetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Reversesetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/getter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/javascript/ReverseApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/javascript/ReverseAssets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/javascript/Reversegetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/javascript/Reversesetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/ReverseApplication$$anonfun$Main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/ReverseApplication$$anonfun$Register$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/ReverseApplication$$anonfun$index$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/ReverseApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/ReverseAssets$$anonfun$at$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/ReverseAssets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$checkIfUserIsDebter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$getGelts$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$getGroupsUser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$getUserInformation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$getUsers$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$isEmailAlreadyExist$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$isLoginPermited$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter$$anonfun$isUserNameAlreadyExist$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversegetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$confirm$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$newGelt$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$notConfirm$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$pay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$registerNewUser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$uploadFile$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter$$anonfun$uploadFileWithName$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ref/Reversesetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes$javascript.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes$ref.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/setter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/logger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/mail/CrunchifyValidateEmail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/mail/mailBL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/routes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/index$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/index$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/index.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/main$$anonfun$f$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/main$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/main$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/main.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/BL/getterBL.java" afterPath="$PROJECT_DIR$/app/BL/getterBL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/svg/account_circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/svg/attach_money.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/svg/group.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/svg/menu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/svg/share.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/template/Groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/global/copy-assets" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/global/copy-assets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$documentation$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$documentation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10$$anonfun$apply$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$11$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$11$$anonfun$apply$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$11.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12$$anonfun$apply$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$13$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$13$$anonfun$apply$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$13.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$14$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$14$$anonfun$apply$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$14.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$15$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$15$$anonfun$apply$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$15.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$16$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$16$$anonfun$apply$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$16.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$17$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$17$$anonfun$apply$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$17.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$18$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$18$$anonfun$apply$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$18.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$19$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$19$$anonfun$apply$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$19.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6$$anonfun$apply$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$8$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$8$$anonfun$apply$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9$$anonfun$apply$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$$anonfun$routes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/Routes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/Reversegetter.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/Reversegetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/Reversesetter.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/Reversesetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/Reversegetter.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/Reversegetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/Reversesetter.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/javascript/Reversesetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication$$anonfun$Main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication$$anonfun$Main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication$$anonfun$Register$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication$$anonfun$Register$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$checkIfUserIsDebter$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$checkIfUserIsDebter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getGelts$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getGelts$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getGroupsUser$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getGroupsUser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getUserInformation$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getUserInformation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getUsers$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$getUsers$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$isEmailAlreadyExist$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$isEmailAlreadyExist$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$isLoginPermited$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$isLoginPermited$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$isUserNameAlreadyExist$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter$$anonfun$isUserNameAlreadyExist$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversegetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$confirm$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$confirm$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$newGelt$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$newGelt$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$notConfirm$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$notConfirm$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$pay$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$pay$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$registerNewUser$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$registerNewUser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$uploadFile$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$uploadFile$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$uploadFileWithName$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter$$anonfun$uploadFileWithName$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/controllers/ref/Reversesetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/inc_compile" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/inc_compile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/MyServer.iml" afterPath="$PROJECT_DIR$/.idea_modules/MyServer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/BL/getterBL.java" afterPath="$PROJECT_DIR$/app/BL/getterBL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/BL/setterBL.java" afterPath="$PROJECT_DIR$/app/BL/setterBL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/DB/getterDB.java" afterPath="$PROJECT_DIR$/app/DB/getterDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/DB/setterDB.java" afterPath="$PROJECT_DIR$/app/DB/setterDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Entity/Gelt.java" afterPath="$PROJECT_DIR$/app/Entity/Gelt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/getter.java" afterPath="$PROJECT_DIR$/app/controllers/getter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/javascripts/1.js" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/javascripts/app.js" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/template/Main.html" afterPath="$PROJECT_DIR$/public/angularTest/template/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/template/userInformation.html" afterPath="$PROJECT_DIR$/public/angularTest/template/userInformation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/compile/play_instrumentation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/1.js" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/app.js" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/Main.html" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/userInformation.html" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/userInformation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/controllers/routes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/routes_routing.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/playCopyAssets/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/playCopyAssets/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ApplicationTest.java" afterPath="$PROJECT_DIR$/test/ApplicationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/insertingTest.java" afterPath="$PROJECT_DIR$/test/insertingTest.java" />
     </list>
     <ignored path="preprod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,86 +140,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - yankalee@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - yankalee@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - yankalee@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="temp_debts" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - yankalee@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="groups" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - yankalee@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="group_users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - yankalee@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="bank" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -222,102 +150,91 @@
       <file leaf-file-name="getterDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/DB/getterDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#getUserIdByName#0;class#getterDB#0" expanded="false" />
                 <element signature="method#getEmails#0;class#getterDB#0" expanded="false" />
                 <element signature="method#getUserLogins#0;class#getterDB#0" expanded="false" />
                 <element signature="method#getUsers#0;class#getterDB#0" expanded="false" />
                 <element signature="method#getUser#0;class#getterDB#0" expanded="false" />
-                <element signature="method#getGelts#0;class#getterDB#0" expanded="false" />
-                <element signature="method#getTempGelts#0;class#getterDB#0" expanded="false" />
                 <element signature="method#getUsersOfAGroup#0;class#getterDB#0" expanded="false" />
                 <element signature="method#getGroup#0;class#getterDB#0" expanded="false" />
                 <element signature="method#close#0;class#getterDB#0" expanded="false" />
-                <marker date="1473804895791" expanded="true" signature="1538:1552" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="2734:2748" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="2734:2787" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4000" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4041" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4047" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4064" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4066" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4067" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4068" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="3980:4070" ph="select user_... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="5234:5248" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="6417:6431" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="7638:7652" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="9190:9203" ph="SELECT * FRO... " />
-                <marker date="1473804895791" expanded="true" signature="9190:9204" ph="SELECT * FRO... missingValuemissingValue" />
-                <marker date="1473804895791" expanded="true" signature="9190:9207" ph="SELECT * FRO... " />
-                <marker date="1473804895791" expanded="true" signature="9190:9334" ph="SELECT * FRO... groups" />
-                <marker date="1473804895791" expanded="true" signature="9190:9335" ph="SELECT * FRO... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="9249:9315" ph="SELECT group... group_users" />
-                <marker date="1473804895791" expanded="true" signature="9249:9334" ph="SELECT group... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="9315:9334" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="10699:10713" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="10699:10752" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="10699:10754" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="10699:10771" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="10699:10773" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="12217:12231" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="13641:13655" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="15159:15172" ph="select * fro... " />
-                <marker date="1473804895791" expanded="true" signature="15159:15173" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="15159:15219" ph="select * fro... missingValue" />
-                <marker date="1473804895791" expanded="true" signature="16559:16573" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="1538:1552" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="2734:2748" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="2734:2787" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4000" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4041" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4047" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4064" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4066" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4067" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4068" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="3980:4070" ph="select user_... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="5234:5248" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="6417:6431" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="7638:7652" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="9190:9203" ph="SELECT * FRO... " />
+                <marker date="1473964955501" expanded="true" signature="9190:9204" ph="SELECT * FRO... missingValuemissingValue" />
+                <marker date="1473964955501" expanded="true" signature="9190:9207" ph="SELECT * FRO... " />
+                <marker date="1473964955501" expanded="true" signature="9190:9334" ph="SELECT * FRO... groups" />
+                <marker date="1473964955501" expanded="true" signature="9190:9335" ph="SELECT * FRO... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="9249:9315" ph="SELECT group... group_users" />
+                <marker date="1473964955501" expanded="true" signature="9249:9334" ph="SELECT group... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="9315:9334" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="10699:10713" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="10699:10752" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="10699:10754" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="10699:10771" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="10699:10773" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="12217:12231" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="13670:13684" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="15217:15230" ph="select * fro... " />
+                <marker date="1473964955501" expanded="true" signature="15217:15231" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="15217:15277" ph="select * fro... missingValue" />
+                <marker date="1473964955501" expanded="true" signature="16617:16631" ph="select * fro... missingValue" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreparedStatement.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/PreparedStatement.class">
+      <file leaf-file-name="setterBL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/BL/setterBL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16456">
-              <caret line="1033" column="0" selection-start-line="1033" selection-start-column="0" selection-end-line="1033" selection-end-column="0" />
+            <state relative-caret-position="86">
+              <caret line="263" column="58" selection-start-line="263" selection-start-column="58" selection-end-line="263" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/ConnectionImpl.class">
+      <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40171">
-              <caret line="2517" column="0" selection-start-line="2517" selection-start-column="0" selection-end-line="2517" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Driver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/local/com.h2database/h2/1.3.172/jars/h2.jar!/org/h2/Driver.class">
+      <file leaf-file-name="insertingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/insertingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Driver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/Driver.class">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NonRegisteringDriver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/NonRegisteringDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -326,48 +243,90 @@
       <file leaf-file-name="1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7310">
-              <caret line="430" column="65" selection-start-line="430" selection-start-column="65" selection-end-line="430" selection-end-column="65" />
+            <state relative-caret-position="134">
+              <caret line="521" column="37" selection-start-line="521" selection-start-column="37" selection-end-line="521" selection-end-column="37" />
+              <folding>
+                <element signature="e#5949#6440#0" expanded="false" />
+                <element signature="e#6820#6901#0" expanded="false" />
+                <element signature="e#7032#7223#0" expanded="false" />
+                <element signature="e#7295#7353#0" expanded="false" />
+                <element signature="e#7649#8896#0" expanded="false" />
+                <element signature="e#8991#9317#0" expanded="false" />
+                <element signature="e#9386#9699#0" expanded="false" />
+                <element signature="e#9782#9857#0" expanded="false" />
+                <element signature="e#9979#10276#0" expanded="false" />
+                <element signature="e#10512#11267#0" expanded="false" />
+                <element signature="e#11340#12262#0" expanded="false" />
+                <element signature="e#12392#12428#0" expanded="false" />
+                <element signature="e#12501#12937#0" expanded="false" />
+                <element signature="e#18886#18930#0" expanded="false" />
+                <element signature="e#19056#19090#0" expanded="false" />
+                <element signature="e#19127#19163#0" expanded="false" />
+                <element signature="e#19223#19549#0" expanded="false" />
+                <element signature="e#19707#20640#0" expanded="false" />
+                <element signature="e#20849#21340#0" expanded="false" />
+                <element signature="e#21439#21503#0" expanded="false" />
+                <element signature="e#21546#21982#0" expanded="false" />
+                <element signature="e#22017#23936#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setterDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DB/setterDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <folding>
+                <element signature="method#updateGelt#0;class#setterDB#0" expanded="false" />
+                <element signature="method#deleteGelt#0;class#setterDB#0" expanded="false" />
+                <element signature="method#deleteTable#0;class#setterDB#0" expanded="false" />
+                <element signature="method#registerNewUser#0;class#setterDB#0" expanded="false" />
+                <marker date="1473964837019" expanded="true" signature="1678:1733" ph="insert into missingValue... " />
+                <marker date="1473964837019" expanded="true" signature="3120:3181" ph="insert into missingValue... " />
+                <marker date="1473964837019" expanded="true" signature="4434:4550" ph="delete from " />
+                <marker date="1473964837019" expanded="true" signature="4434:4567" ph="delete from " />
+                <marker date="1473964837019" expanded="true" signature="6015:6184" ph="UPDATE missi... " />
+                <marker date="1473964837019" expanded="true" signature="6015:6201" ph="UPDATE missi... " />
+                <marker date="1473964837019" expanded="true" signature="7748:7858" ph="delete from " />
+                <marker date="1473964837019" expanded="true" signature="9003:9015" ph="DELETE FROM " />
+                <marker date="1473964837019" expanded="true" signature="11534:11688" ph="insert into missingValue... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gelt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Entity/Gelt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding>
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getterBL.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/BL/getterBL.java">
+      <file leaf-file-name="Groups.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/angularTest/template/Groups.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
-              <folding>
-                <element signature="method#getIdByName#0;class#getterBL#0" expanded="false" />
-                <element signature="method#isUserNameAlreadyExist#0;class#getterBL#0" expanded="false" />
-                <element signature="method#isEmailAlreadyExist#0;class#getterBL#0" expanded="false" />
-                <element signature="method#getUsers#0;class#getterBL#0" expanded="false" />
-                <element signature="method#getDateByString#0;class#getterBL#0" expanded="false" />
-                <element signature="method#checkIfUserIsDebter#0;class#getterBL#0" expanded="false" />
-                <element signature="method#getUserInformation#0;class#getterBL#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/getter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="238">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -400,7 +359,6 @@
         <option value="$PROJECT_DIR$/app/controllers/setter.java" />
         <option value="$PROJECT_DIR$/public/template/Register.html" />
         <option value="$PROJECT_DIR$/public/template/Main.html" />
-        <option value="$PROJECT_DIR$/app/DB/setterDB.java" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/logs/application.log" />
         <option value="$PROJECT_DIR$/public/stylesheets/login.css" />
@@ -421,15 +379,21 @@
         <option value="$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/com.sun.mail/javax.mail/jars/javax.mail-1.5.5.jar!/javax/mail/internet/InternetAddress.class" />
         <option value="$PROJECT_DIR$/app/Entity/UsersGroup.java" />
         <option value="$PROJECT_DIR$/app/Entity/Group.java" />
-        <option value="$PROJECT_DIR$/public/angularTest/javascripts/app.js" />
-        <option value="$PROJECT_DIR$/public/angularTest/template/Main.html" />
         <option value="$PROJECT_DIR$/public/angularTest/template/wellcom.html" />
-        <option value="$PROJECT_DIR$/public/angularTest/javascripts/1.js" />
+        <option value="$PROJECT_DIR$/public/angularTest/javascripts/app.js" />
         <option value="$PROJECT_DIR$/public/angularTest/template/userInformation.html" />
+        <option value="$PROJECT_DIR$/public/angularTest/template/Main.html" />
+        <option value="$PROJECT_DIR$/app/BL/getterBL.java" />
         <option value="$PROJECT_DIR$/app/controllers/getter.java" />
         <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/public/angularTest/template/Groups.html" />
+        <option value="$PROJECT_DIR$/public/angularTest/javascripts/1.js" />
+        <option value="$PROJECT_DIR$/app/Entity/Gelt.java" />
+        <option value="$PROJECT_DIR$/app/DB/setterDB.java" />
         <option value="$PROJECT_DIR$/app/DB/getterDB.java" />
-        <option value="$PROJECT_DIR$/app/BL/getterBL.java" />
+        <option value="$PROJECT_DIR$/app/BL/setterBL.java" />
+        <option value="$PROJECT_DIR$/test/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/test/insertingTest.java" />
       </list>
     </option>
   </component>
@@ -452,9 +416,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1368" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1376" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -522,12 +486,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,7 +502,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/conf/routes&#10;getter&#9;PSI&#9;JAVA://controllers.getter&#10;ge&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;user&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/Entity/User.java&#10;getterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;main&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Main.html&#10;1&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/javascripts/1.js&#10;ht&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;well&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;html&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Main.html&#10;index&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/index.html&#10;app&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/javascripts/app.js&#10;userin&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;checkIfUserIsDebter&#9;PSI&#9;JAVA://BL.getterBL#checkIfUserIsDebter&#10;applica&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;mail&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/.idea/libraries/SBT__com_sun_mail_javax_mail_1_5_5.xml&#10;db&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;css&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/stylesheets/main.css&#10;appli&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;register&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;.con&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/application.conf&#10;setter&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/app/controllers/setter.java&#10;regis&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;routes&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/routes&#10;register.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;1.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/javascripts/1.js" />
+    <property name="SearchEverywhereHistoryKey" value="setterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/setterDB.java&#10;getter&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/getter.java&#10;rout&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/conf/routes&#10;userinfo&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;app&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/javascripts/app.js&#10;html&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Main.html&#10;ge&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;user&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/Entity/User.java&#10;getterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;main&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Main.html&#10;1&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/javascripts/1.js&#10;ht&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;well&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;index&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/index.html&#10;userin&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;checkIfUserIsDebter&#9;PSI&#9;JAVA://BL.getterBL#checkIfUserIsDebter&#10;applica&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;mail&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/.idea/libraries/SBT__com_sun_mail_javax_mail_1_5_5.xml&#10;db&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;css&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/stylesheets/main.css&#10;appli&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;register&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;.con&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/application.conf&#10;setter&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/app/controllers/setter.java&#10;regis&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;routes&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/routes&#10;register.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;1.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/javascripts/1.js" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="78" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="98" />
@@ -566,6 +530,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devl\work\Rodeo2016-07-28\preprod\public\angularTest\template" />
+      <recent name="C:\devl\work\Rodeo2016-07-28\preprod\public\angularTest\svg" />
       <recent name="C:\devl\work\Rodeo2016-07-28\preprod\public\angularTest" />
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
@@ -1150,44 +1116,53 @@
       <workItem from="1473536099613" duration="1093000" />
       <workItem from="1473537380104" duration="1067000" />
       <workItem from="1473538452791" duration="42620000" />
-      <workItem from="1473928289356" duration="682000" />
+      <workItem from="1473928289356" duration="4445000" />
+      <workItem from="1473949260262" duration="14385000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit from intelij">
+      <created>1473936512756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1473936512756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169607000" />
+    <option name="totallyTimeSpent" value="187755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.058919802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41571194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22264437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.437788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43698853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1816694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1196,30 +1171,30 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46554622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.437788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.058919802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41704717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41571194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22264437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1816694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1237,6 +1212,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit from intelij" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit from intelij" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1253,18 +1232,6 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/DB/setterDB.java</url>
-          <line>278</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/DB/setterDB.java</url>
-          <line>272</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/controllers/getter.java</url>
           <line>103</line>
           <properties />
@@ -1277,22 +1244,10 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/Entity/User.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/app/DB/setterDB.java</url>
+          <line>71</line>
           <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/Entity/User.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/DB/getterDB.java</url>
-          <line>231</line>
-          <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -1301,7 +1256,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
@@ -1318,56 +1273,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/angularTest/videos/_gitignore" />
-    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="214" column="14" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/sweetalert-master/dev/ie9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/template/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.495/ServiceRequestFacade.java" />
     <entry file="file://$PROJECT_DIR$/.idea/libraries/SBT__com_sun_mail_javax_mail_1_5_5.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1404,17 +1309,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Entity/Gelt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Entity/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1429,26 +1331,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DB/setterDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1310">
-          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
           <folding>
-            <element signature="method#setTempGelt#0;class#setterDB#0" expanded="false" />
-            <element signature="method#deleteTempGelt#0;class#setterDB#0" expanded="false" />
-            <element signature="method#updateGelt#0;class#setterDB#0" expanded="false" />
-            <element signature="method#deleteGelt#0;class#setterDB#0" expanded="false" />
-            <element signature="method#deleteTable#0;class#setterDB#0" expanded="false" />
-            <marker date="1469719296690" expanded="true" signature="1678:1731" ph="insert into missingValue... " />
-            <marker date="1469719296690" expanded="true" signature="3049:3108" ph="insert into missingValue... " />
-            <marker date="1469719296690" expanded="true" signature="4299:4415" ph="delete from " />
-            <marker date="1469719296690" expanded="true" signature="5801:5956" ph="UPDATE missi... " />
-            <marker date="1469719296690" expanded="true" signature="7368:7478" ph="delete from " />
-            <marker date="1469719296690" expanded="true" signature="8623:8635" ph="DELETE FROM " />
-            <marker date="1469719296690" expanded="true" signature="11154:11308" ph="insert into missingValue... " />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1459,6 +1352,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,6 +1360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1622,13 +1517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1636,13 +1525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-943">
           <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/template/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1650,21 +1533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
           <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/template/userInformation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,31 +1564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/local/com.h2database/h2/1.3.172/jars/h2.jar!/org/h2/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/ConnectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40171">
-          <caret line="2517" column="0" selection-start-line="2517" selection-start-column="0" selection-end-line="2517" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/PreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16456">
-          <caret line="1033" column="0" selection-start-line="1033" selection-start-column="0" selection-end-line="1033" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1728,74 +1571,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/local/com.h2database/h2/1.3.172/jars/h2.jar!/org/h2/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="2517" column="0" selection-start-line="2517" selection-start-column="0" selection-end-line="2517" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../tools/play-2.2.6/repository/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/com/mysql/jdbc/PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1033" column="0" selection-start-line="1033" selection-start-column="0" selection-end-line="1033" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/svg/share.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/DB/getterDB.java">
+    <entry file="file://$PROJECT_DIR$/public/angularTest/svg/group.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-          <folding>
-            <element signature="method#getUserIdByName#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getEmails#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getUserLogins#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getUsers#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getUser#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getGelts#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getTempGelts#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getUsersOfAGroup#0;class#getterDB#0" expanded="false" />
-            <element signature="method#getGroup#0;class#getterDB#0" expanded="false" />
-            <element signature="method#close#0;class#getterDB#0" expanded="false" />
-            <marker date="1473804895791" expanded="true" signature="1538:1552" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="2734:2748" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="2734:2787" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4000" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4041" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4047" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4064" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4066" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4067" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4068" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="3980:4070" ph="select user_... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="5234:5248" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="6417:6431" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="7638:7652" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="9190:9203" ph="SELECT * FRO... " />
-            <marker date="1473804895791" expanded="true" signature="9190:9204" ph="SELECT * FRO... missingValuemissingValue" />
-            <marker date="1473804895791" expanded="true" signature="9190:9207" ph="SELECT * FRO... " />
-            <marker date="1473804895791" expanded="true" signature="9190:9334" ph="SELECT * FRO... groups" />
-            <marker date="1473804895791" expanded="true" signature="9190:9335" ph="SELECT * FRO... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="9249:9315" ph="SELECT group... group_users" />
-            <marker date="1473804895791" expanded="true" signature="9249:9334" ph="SELECT group... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="9315:9334" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="10699:10713" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="10699:10752" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="10699:10754" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="10699:10771" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="10699:10773" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="12217:12231" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="13641:13655" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="15159:15172" ph="select * fro... " />
-            <marker date="1473804895791" expanded="true" signature="15159:15173" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="15159:15219" ph="select * fro... missingValue" />
-            <marker date="1473804895791" expanded="true" signature="16559:16573" ph="select * fro... missingValue" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/1.js">
+    <entry file="file://$PROJECT_DIR$/public/angularTest/svg/account_circle.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7310">
-          <caret line="430" column="65" selection-start-line="430" selection-start-column="65" selection-end-line="430" selection-end-column="65" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/svg/attach_money.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/getter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/BL/getterBL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="281" column="48" selection-start-line="281" selection-start-column="48" selection-end-line="281" selection-end-column="48" />
           <folding>
             <element signature="method#getIdByName#0;class#getterBL#0" expanded="false" />
             <element signature="method#isUserNameAlreadyExist#0;class#getterBL#0" expanded="false" />
@@ -1803,25 +1646,195 @@
             <element signature="method#getUsers#0;class#getterBL#0" expanded="false" />
             <element signature="method#getDateByString#0;class#getterBL#0" expanded="false" />
             <element signature="method#checkIfUserIsDebter#0;class#getterBL#0" expanded="false" />
-            <element signature="method#getUserInformation#0;class#getterBL#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/getter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="85">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/template/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/template/userInformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="72" column="56" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/template/Groups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="521" column="37" selection-start-line="521" selection-start-column="37" selection-end-line="521" selection-end-column="37" />
+          <folding>
+            <element signature="e#5949#6440#0" expanded="false" />
+            <element signature="e#6820#6901#0" expanded="false" />
+            <element signature="e#7032#7223#0" expanded="false" />
+            <element signature="e#7295#7353#0" expanded="false" />
+            <element signature="e#7649#8896#0" expanded="false" />
+            <element signature="e#8991#9317#0" expanded="false" />
+            <element signature="e#9386#9699#0" expanded="false" />
+            <element signature="e#9782#9857#0" expanded="false" />
+            <element signature="e#9979#10276#0" expanded="false" />
+            <element signature="e#10512#11267#0" expanded="false" />
+            <element signature="e#11340#12262#0" expanded="false" />
+            <element signature="e#12392#12428#0" expanded="false" />
+            <element signature="e#12501#12937#0" expanded="false" />
+            <element signature="e#18886#18930#0" expanded="false" />
+            <element signature="e#19056#19090#0" expanded="false" />
+            <element signature="e#19127#19163#0" expanded="false" />
+            <element signature="e#19223#19549#0" expanded="false" />
+            <element signature="e#19707#20640#0" expanded="false" />
+            <element signature="e#20849#21340#0" expanded="false" />
+            <element signature="e#21439#21503#0" expanded="false" />
+            <element signature="e#21546#21982#0" expanded="false" />
+            <element signature="e#22017#23936#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Entity/Gelt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DB/setterDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="method#updateGelt#0;class#setterDB#0" expanded="false" />
+            <element signature="method#deleteGelt#0;class#setterDB#0" expanded="false" />
+            <element signature="method#deleteTable#0;class#setterDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#setterDB#0" expanded="false" />
+            <marker date="1473964837019" expanded="true" signature="1678:1733" ph="insert into missingValue... " />
+            <marker date="1473964837019" expanded="true" signature="3120:3181" ph="insert into missingValue... " />
+            <marker date="1473964837019" expanded="true" signature="4434:4550" ph="delete from " />
+            <marker date="1473964837019" expanded="true" signature="4434:4567" ph="delete from " />
+            <marker date="1473964837019" expanded="true" signature="6015:6184" ph="UPDATE missi... " />
+            <marker date="1473964837019" expanded="true" signature="6015:6201" ph="UPDATE missi... " />
+            <marker date="1473964837019" expanded="true" signature="7748:7858" ph="delete from " />
+            <marker date="1473964837019" expanded="true" signature="9003:9015" ph="DELETE FROM " />
+            <marker date="1473964837019" expanded="true" signature="11534:11688" ph="insert into missingValue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DB/getterDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getUserIdByName#0;class#getterDB#0" expanded="false" />
+            <element signature="method#getEmails#0;class#getterDB#0" expanded="false" />
+            <element signature="method#getUserLogins#0;class#getterDB#0" expanded="false" />
+            <element signature="method#getUsers#0;class#getterDB#0" expanded="false" />
+            <element signature="method#getUser#0;class#getterDB#0" expanded="false" />
+            <element signature="method#getUsersOfAGroup#0;class#getterDB#0" expanded="false" />
+            <element signature="method#getGroup#0;class#getterDB#0" expanded="false" />
+            <element signature="method#close#0;class#getterDB#0" expanded="false" />
+            <marker date="1473964955501" expanded="true" signature="1538:1552" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="2734:2748" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="2734:2787" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4000" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4041" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4047" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4064" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4066" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4067" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4068" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="3980:4070" ph="select user_... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="5234:5248" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="6417:6431" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="7638:7652" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="9190:9203" ph="SELECT * FRO... " />
+            <marker date="1473964955501" expanded="true" signature="9190:9204" ph="SELECT * FRO... missingValuemissingValue" />
+            <marker date="1473964955501" expanded="true" signature="9190:9207" ph="SELECT * FRO... " />
+            <marker date="1473964955501" expanded="true" signature="9190:9334" ph="SELECT * FRO... groups" />
+            <marker date="1473964955501" expanded="true" signature="9190:9335" ph="SELECT * FRO... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="9249:9315" ph="SELECT group... group_users" />
+            <marker date="1473964955501" expanded="true" signature="9249:9334" ph="SELECT group... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="9315:9334" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="10699:10713" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="10699:10752" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="10699:10754" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="10699:10771" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="10699:10773" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="12217:12231" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="13670:13684" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="15217:15230" ph="select * fro... " />
+            <marker date="1473964955501" expanded="true" signature="15217:15231" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="15217:15277" ph="select * fro... missingValue" />
+            <marker date="1473964955501" expanded="true" signature="16617:16631" ph="select * fro... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/BL/setterBL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="263" column="58" selection-start-line="263" selection-start-column="58" selection-end-line="263" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/insertingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
           <folding />
         </state>
       </provider>

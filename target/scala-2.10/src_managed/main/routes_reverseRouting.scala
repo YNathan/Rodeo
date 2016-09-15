@@ -1,6 +1,6 @@
 // @SOURCE:C:/devl/work/Rodeo2016-07-28/preprod/conf/routes
-// @HASH:e3106e461ba81b1fc443ceddb021df086c216834
-// @DATE:Wed Sep 14 01:02:03 IDT 2016
+// @HASH:9780cc1f3e5714107fc4d5883298870e9b28614b
+// @DATE:Thu Sep 15 21:05:27 IDT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,9 +13,10 @@ import play.libs.F
 import Router.queryString
 
 
-// @LINE:27
+// @LINE:28
+// @LINE:26
 // @LINE:25
-// @LINE:24
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -34,6 +35,7 @@ import Router.queryString
 // @LINE:7
 package controllers {
 
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:17
@@ -69,7 +71,7 @@ def isEmailAlreadyExist(Email:String): Call = {
 }
                                                 
 
-// @LINE:22
+// @LINE:23
 def getGroupsUser(szUserName:String): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "GET_GROUPS_INFORMATION/" + implicitly[PathBindable[String]].unbind("szUserName", dynamicString(szUserName)))
 }
@@ -78,6 +80,12 @@ def getGroupsUser(szUserName:String): Call = {
 // @LINE:21
 def getUserInformation(szUserName:String): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "GET_USER_INFORMATION/" + implicitly[PathBindable[String]].unbind("szUserName", dynamicString(szUserName)))
+}
+                                                
+
+// @LINE:22
+def getOwnerGroupInformation(szUserName:String): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "GET_OWNER_INFORMATION/" + implicitly[PathBindable[String]].unbind("szUserName", dynamicString(szUserName)))
 }
                                                 
 
@@ -96,8 +104,8 @@ def isLoginPermited(Username:String, Password:String): Call = {
 }
                           
 
+// @LINE:26
 // @LINE:25
-// @LINE:24
 // @LINE:20
 // @LINE:19
 // @LINE:18
@@ -112,7 +120,7 @@ def confirm(szDebterName:String, szAmount:String, szEntitledName:String): Call =
 }
                                                 
 
-// @LINE:24
+// @LINE:25
 def uploadFile(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "upload")
 }
@@ -136,7 +144,7 @@ def registerNewUser(userName:String, firstName:String, lastName:String, telephon
 }
                                                 
 
-// @LINE:25
+// @LINE:26
 def uploadFileWithName(szUserName:String): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "upload/" + implicitly[PathBindable[String]].unbind("szUserName", dynamicString(szUserName)))
 }
@@ -151,11 +159,11 @@ def newGelt(szDebterName:String, szAmount:String, szEntitledName:String): Call =
 }
                           
 
-// @LINE:27
+// @LINE:28
 class ReverseAssets {
     
 
-// @LINE:27
+// @LINE:28
 def at(file:String): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
 }
@@ -194,9 +202,10 @@ def index(): Call = {
                   
 
 
-// @LINE:27
+// @LINE:28
+// @LINE:26
 // @LINE:25
-// @LINE:24
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -215,6 +224,7 @@ def index(): Call = {
 // @LINE:7
 package controllers.javascript {
 
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:17
@@ -270,7 +280,7 @@ def isEmailAlreadyExist : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:22
+// @LINE:23
 def getGroupsUser : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.getter.getGroupsUser",
    """
@@ -287,6 +297,17 @@ def getUserInformation : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function(szUserName) {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "GET_USER_INFORMATION/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szUserName", encodeURIComponent(szUserName))})
+      }
+   """
+)
+                        
+
+// @LINE:22
+def getOwnerGroupInformation : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.getter.getOwnerGroupInformation",
+   """
+      function(szUserName) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "GET_OWNER_INFORMATION/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szUserName", encodeURIComponent(szUserName))})
       }
    """
 )
@@ -317,8 +338,8 @@ def isLoginPermited : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:26
 // @LINE:25
-// @LINE:24
 // @LINE:20
 // @LINE:19
 // @LINE:18
@@ -338,7 +359,7 @@ def confirm : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:24
+// @LINE:25
 def uploadFile : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.setter.uploadFile",
    """
@@ -382,7 +403,7 @@ def registerNewUser : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:25
+// @LINE:26
 def uploadFileWithName : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.setter.uploadFileWithName",
    """
@@ -407,11 +428,11 @@ def newGelt : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:27
+// @LINE:28
 class ReverseAssets {
     
 
-// @LINE:27
+// @LINE:28
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -470,9 +491,10 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:27
+// @LINE:28
+// @LINE:26
 // @LINE:25
-// @LINE:24
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -492,6 +514,7 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:17
@@ -527,7 +550,7 @@ def isEmailAlreadyExist(Email:String): play.api.mvc.HandlerRef[_] = new play.api
 )
                       
 
-// @LINE:22
+// @LINE:23
 def getGroupsUser(szUserName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.getter.getGroupsUser(szUserName), HandlerDef(this, "controllers.getter", "getGroupsUser", Seq(classOf[String]), "GET", """""", _prefix + """GET_GROUPS_INFORMATION/$szUserName<[^/]+>""")
 )
@@ -536,6 +559,12 @@ def getGroupsUser(szUserName:String): play.api.mvc.HandlerRef[_] = new play.api.
 // @LINE:21
 def getUserInformation(szUserName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.getter.getUserInformation(szUserName), HandlerDef(this, "controllers.getter", "getUserInformation", Seq(classOf[String]), "GET", """""", _prefix + """GET_USER_INFORMATION/$szUserName<[^/]+>""")
+)
+                      
+
+// @LINE:22
+def getOwnerGroupInformation(szUserName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.getter.getOwnerGroupInformation(szUserName), HandlerDef(this, "controllers.getter", "getOwnerGroupInformation", Seq(classOf[String]), "GET", """""", _prefix + """GET_OWNER_INFORMATION/$szUserName<[^/]+>""")
 )
                       
 
@@ -554,8 +583,8 @@ def isLoginPermited(Username:String, Password:String): play.api.mvc.HandlerRef[_
 }
                           
 
+// @LINE:26
 // @LINE:25
-// @LINE:24
 // @LINE:20
 // @LINE:19
 // @LINE:18
@@ -570,7 +599,7 @@ def confirm(szDebterName:String, szAmount:String, szEntitledName:String): play.a
 )
                       
 
-// @LINE:24
+// @LINE:25
 def uploadFile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.setter.uploadFile(), HandlerDef(this, "controllers.setter", "uploadFile", Seq(), "POST", """ Upload file to the server""", _prefix + """upload""")
 )
@@ -594,7 +623,7 @@ def registerNewUser(userName:String, firstName:String, lastName:String, telephon
 )
                       
 
-// @LINE:25
+// @LINE:26
 def uploadFileWithName(szUserName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.setter.uploadFileWithName(szUserName), HandlerDef(this, "controllers.setter", "uploadFileWithName", Seq(classOf[String]), "POST", """""", _prefix + """upload/$szUserName<[^/]+>""")
 )
@@ -609,11 +638,11 @@ def newGelt(szDebterName:String, szAmount:String, szEntitledName:String): play.a
 }
                           
 
-// @LINE:27
+// @LINE:28
 class ReverseAssets {
     
 
-// @LINE:27
+// @LINE:28
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )

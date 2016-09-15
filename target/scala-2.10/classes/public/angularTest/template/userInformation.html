@@ -1,7 +1,10 @@
+<md-button class="menu" ng-click="toggleLeft()">
+    <md-icon md-svg-icon="menu"></md-icon>
+</md-button>
 </br></br></br></br>
 <div class="flex-container">
     <div layout="row" md-colors="{color: 'red-A100', border-color: 'primary-600'}">
-        <div flex="40">
+        <div flex="60">
             <form ng-submit="register()">
                 <md-input-container>
                     <label> User Name :</label>
@@ -35,6 +38,9 @@
                     <input type="text" ng-model="password" name="text"  placeholder="סיסמא" required/>
                 </md-input-container>
                 <md-input-container>
+                    <input type="file" name="file"  onchange="angular.element(this).scope().uploadFile(this.files)"/>
+                </md-input-container>
+                <md-input-container>
                     <md-button type="submit" id="submit">שמור</md-button>
                 </md-input-container>
             </form>
@@ -44,5 +50,37 @@
             <!--img src="images/MyProfile.png" width="180" height="320"-->
         </div>
     </div>
+
+</div>
+
+
+
+
+
+
+<div class="container" layout="row" flex>
+
+    <md-sidenav class="md-sidenav-left" md-component-id="left" md-disable-backdrop="" md-whiteframe="4">
+        <md-toolbar class="md-theme-indigo">
+            <h1 class="md-toolbar-tools">Menu</h1>
+        </md-toolbar>
+
+        <md-content layout-margin="" align="center">
+            <md-button class="account_circle" ng-click="goToUserInformation()">
+                <md-icon md-svg-icon="account_circle" ></md-icon> <div>{{userName}} Information</div>
+            </md-button>
+            </br>
+            <md-button class="group" ng-click="goToGroups()" >
+                <md-icon md-svg-icon="group" ></md-icon> <div>  Manage Groups </div>
+            </md-button>
+            </br>
+            <md-button class="attach_money" ng-click="goToMain()">
+                <md-icon md-svg-icon="attach_money"></md-icon><div>Bank Manager</div>
+            </md-button>
+            </br>
+           </md-content>
+
+    </md-sidenav>
+
 
 </div>
