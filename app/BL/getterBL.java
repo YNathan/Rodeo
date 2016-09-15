@@ -289,7 +289,6 @@ public class getterBL {
         }
         while (currGroup != null) {
             sbUserInformationToReturn.append(" {\"group_name\":\"" + currGroup.getGroupName() + "\",");
-
             sbUserInformationToReturn.append("\"group_owner_name\":\"" + getterDB.getUserNameById(currGroup.getOwnerId()) + "\"}");
 
             if (groupItr.hasNext()) {
