@@ -3,23 +3,14 @@
 </md-button>
 </br></br></br></br>
 
-<div flex="66">
-    <table class="rwd-table">
-        <h1>Your Groups Information</h1>
-        <tr>
-            <th>Group Name</th>
-            <th>Owner Name</th>
-                    </tr>
-        <tr ng-repeat="x in groups">
-            <td>{{ x.group_name }}</td>
-            <td ng-click="getOwnerGroup(x.group_owner_name)">{{ x.group_owner_name }}</td>
-            <td>
-                <button class="myButton" ng-click="pay(x.Debter,x.Entitled,x.Amount)">pay</button>
-            </td>
-        </tr>
-    </table>
+<div flex="50">
+    <video width="320" height="240" controls>
+        <source src="videos/AirForceIsraelyArchive.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
 </div>
-
+<!--md-button ng-click="maKore()">a</md-button-->
 <div class="container" layout="row" flex>
 
     <md-sidenav class="md-sidenav-left" md-component-id="left" md-disable-backdrop="" md-whiteframe="4">

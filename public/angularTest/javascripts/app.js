@@ -9,6 +9,9 @@ app.config(function ($stateProvider, $urlRouterProvider,$mdIconProvider) {
     $mdIconProvider.icon('group','./svg/group.svg',24);
     $mdIconProvider.icon('account_circle','./svg/account_circle.svg');
     $mdIconProvider.icon('attach_money','./svg/attach_money.svg');
+    $mdIconProvider.icon('copyright','./svg/copyright.svg');
+
+
     //
     // For any unmatched url, redirect to /state1
     $urlRouterProvider.otherwise("/wellcom");
@@ -34,5 +37,10 @@ app.config(function ($stateProvider, $urlRouterProvider,$mdIconProvider) {
             url: "/main",
             templateUrl: "template/Main.html",
             controller: 'mainControl'
-        });
+        })
+        .state('Copyright', {
+        url: "/Copyright",
+        templateUrl: "template/Copyright.html",
+        controller: 'Copyright'
+    });
 });
