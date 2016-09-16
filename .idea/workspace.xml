@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e179153-1db0-409b-be5b-9ee4f0cd9744" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/Copyright.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/Groups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/LoginRegister.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/UserInformation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/svg/copyright.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/template/Copyright.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/angularTest/javascripts/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/login.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/angularTest/javascripts/1.js" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/Main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/angularTest/AnguIndex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/AnguIndex.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/global/copy-assets" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/global/copy-assets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/ApplicationTest.class" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/ApplicationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/insertingTest.class" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/insertingTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/inc_compile" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/inc_compile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/index.html" afterPath="$PROJECT_DIR$/public/angularTest/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/javascripts/app.js" afterPath="$PROJECT_DIR$/public/angularTest/javascripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/template/Groups.html" afterPath="$PROJECT_DIR$/public/angularTest/template/Groups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/template/Main.html" afterPath="$PROJECT_DIR$/public/angularTest/template/Main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angularTest/template/userInformation.html" afterPath="$PROJECT_DIR$/public/angularTest/template/userInformation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/preprod/compile/play_instrumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/index.html" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/app.js" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/javascripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/Main.html" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/Main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/userInformation.html" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/angularTest/template/userInformation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/playCopyAssets/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/playCopyAssets/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/out" />
     </list>
     <ignored path="preprod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,51 +39,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Copyright.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/Copyright.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Groups.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/Groups.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserInformation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/UserInformation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
+            <state relative-caret-position="136">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/Main.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginRegister.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/LoginRegister.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="243">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -114,19 +62,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/angularTest/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Copyright.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/angularTest/template/Copyright.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="404">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#md-toolbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,18 +74,8 @@
       <file leaf-file-name="userInformation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/angularTest/template/userInformation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -209,13 +139,14 @@
         <option value="$PROJECT_DIR$/test/insertingTest.java" />
         <option value="$PROJECT_DIR$/public/angularTest/template/Groups.html" />
         <option value="$PROJECT_DIR$/public/angularTest/template/Main.html" />
-        <option value="$PROJECT_DIR$/public/angularTest/template/userInformation.html" />
         <option value="$PROJECT_DIR$/public/angularTest/javascripts/LoginRegister.js" />
         <option value="$PROJECT_DIR$/public/angularTest/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/public/angularTest/javascripts/UserInformation.js" />
         <option value="$PROJECT_DIR$/public/angularTest/javascripts/Groups.js" />
         <option value="$PROJECT_DIR$/public/angularTest/javascripts/1.js" />
         <option value="$PROJECT_DIR$/public/angularTest/template/Copyright.html" />
+        <option value="$PROJECT_DIR$/public/angularTest/template/userInformation.html" />
+        <option value="$PROJECT_DIR$/public/angularTest/javascripts/UserInformation.js" />
+        <option value="$PROJECT_DIR$/public/angularTest/javascripts/indes.js" />
         <option value="$PROJECT_DIR$/public/angularTest/index.html" />
         <option value="$PROJECT_DIR$/public/angularTest/javascripts/app.js" />
       </list>
@@ -339,20 +270,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -415,93 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="svg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="profilsPicture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,7 +350,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/index.html&#10;app&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/javascripts/app.js&#10;html&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Groups.html&#10;userinf&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;main&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Main.html&#10;Nathan.&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/profilsPicture/Y.Nathan.jpg&#10;setterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/setterDB.java&#10;getter&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/getter.java&#10;rout&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/conf/routes&#10;userinfo&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;ge&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;user&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/Entity/User.java&#10;getterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;1&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/javascripts/1.js&#10;ht&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;well&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;userin&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;checkIfUserIsDebter&#9;PSI&#9;JAVA://BL.getterBL#checkIfUserIsDebter&#10;applica&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;mail&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/.idea/libraries/SBT__com_sun_mail_javax_mail_1_5_5.xml&#10;db&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;css&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/stylesheets/main.css&#10;appli&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;register&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;.con&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/application.conf&#10;setter&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/app/controllers/setter.java&#10;regis&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;routes&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/routes&#10;register.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;1.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/javascripts/1.js" />
+    <property name="SearchEverywhereHistoryKey" value="a&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/javascripts/app.js&#10;index.&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/index.html&#10;index&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/index.html&#10;app&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/javascripts/app.js&#10;html&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Groups.html&#10;userinf&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;main&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/Main.html&#10;Nathan.&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/profilsPicture/Y.Nathan.jpg&#10;setterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/setterDB.java&#10;getter&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/getter.java&#10;rout&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/conf/routes&#10;userinfo&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;ge&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;user&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/Entity/User.java&#10;getterDB&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;1&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/javascripts/1.js&#10;ht&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;well&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/wellcom.html&#10;userin&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/angularTest/template/userInformation.html&#10;checkIfUserIsDebter&#9;PSI&#9;JAVA://BL.getterBL#checkIfUserIsDebter&#10;applica&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;mail&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/.idea/libraries/SBT__com_sun_mail_javax_mail_1_5_5.xml&#10;db&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/DB/getterDB.java&#10;css&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/public/stylesheets/main.css&#10;appli&#9;FILE&#9;file://C:/devl/work/Rodeo2016-07-28/preprod/app/controllers/Application.java&#10;register&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;.con&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/application.conf&#10;setter&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/app/controllers/setter.java&#10;regis&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;routes&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/conf/routes&#10;register.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/template/Register.html&#10;1.&#9;FILE&#9;file:///home/yaacov/Devl/work/preprod/public/javascripts/1.js" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="78" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="98" />
@@ -1135,7 +966,7 @@
       <workItem from="1473537380104" duration="1067000" />
       <workItem from="1473538452791" duration="42620000" />
       <workItem from="1473928289356" duration="4445000" />
-      <workItem from="1473949260262" duration="20094000" />
+      <workItem from="1473949260262" duration="23202000" />
     </task>
     <task id="LOCAL-00001" summary="first commit from intelij">
       <created>1473936512756</created>
@@ -1151,11 +982,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473965448999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ui - extract the controllers to diferance js files">
+      <created>1474041339899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474041339899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193464000" />
+    <option name="totallyTimeSpent" value="196572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -1184,7 +1022,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43698853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1205,7 +1043,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.437788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43698853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1213,11 +1051,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.058919802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41571194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41571194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22264437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22264437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1816694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1299,16 +1137,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/angularTest/AnguIndex.js" />
     <entry file="file://$PROJECT_DIR$/public/angularTest/AnguIndex.css" />
-    <entry file="file://$PROJECT_DIR$/public/angularTest/AnguIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1750,14 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/template/userInformation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1770,14 +1591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/UserInformation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1814,26 +1627,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/index.html">
+    <entry file="file://$PROJECT_DIR$/public/angularTest/AnguIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/LoginRegister.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="295">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/template/userInformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/UserInformation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#md-toolbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angularTest/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding />
         </state>
       </provider>
