@@ -261,9 +261,9 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
     }
 
     function getDebtes(groupname) {
-        $scope.debts = null;
+        $scope.debts.availableOptions = null;
         // Get debts concerning the user
-        $http.get("/GET_DEBTS_OF_GROUPS/" + getCookie("username")) + "/"+ groupname
+        $http.get("/GET_DEBTS_OF_GROUPS/" + getCookie("username") + "/"+ groupname)
             .then(function (response) {
                 $scope.debts = response.data.debts;
             });

@@ -1,406 +1,661 @@
-2016-09-20 23:43:20,900 - [INFO] - from play in pool-4-thread-5 
+2016-09-21 00:22:13,982 - [INFO] - from play in pool-4-thread-3 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-09-20 23:51:45,725 - [INFO] Application started (Dev)
-2016-09-20 23:51:49,634 - [INFO] <GETTER> Clien in IP : 0:0:0:0:0:0:0:1 Trying to connect
-2016-09-20 23:51:49,635 - [INFO] <BUSINESS_LOGIC> Get is login permited
-2016-09-20 23:51:50,572 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:50,618 - [INFO] <MAIL>Set the mail propeties ===> setup Mail Server Properties..
-2016-09-20 23:51:50,618 - [INFO] <MAIL>Set the mail propeties ===> Mail Server Properties have been setup successfully..
-2016-09-20 23:51:50,618 - [INFO] <MAIL> Send the mail ===> get Mail Session..
-2016-09-20 23:51:50,719 - [INFO] <MAIL> Send the mail ===> Mail Session has been created successfully..
-2016-09-20 23:51:50,719 - [INFO] <MAIL> Send the mail ===> Get Session and Send mail
-2016-09-20 23:51:54,661 - [INFO] <MAIL> Your Java Program has just sent an Email successfully. Check your email..
-2016-09-20 23:51:54,661 - [INFO] <GETTER> Y.Nathan is login from IP: 0:0:0:0:0:0:0:1
-2016-09-20 23:51:54,874 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:51:54,884 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-20 23:51:54,888 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-20 23:51:54,893 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:54,894 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-20 23:51:54,910 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:51:55,111 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-20 23:51:55,112 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-20 23:51:55,146 - [INFO] <DATA_BASE> Get Gelts
-2016-09-20 23:51:55,152 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,160 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,161 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,172 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,173 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-20 23:51:55,173 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,184 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,185 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,192 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,192 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-20 23:51:55,192 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,201 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,202 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,211 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,211 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,222 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,222 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:51:55,233 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:51:55,234 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-20 23:52:00,130 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
-2016-09-20 23:52:00,176 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:52:06,831 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
-2016-09-20 23:52:06,851 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:52:19,902 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:52:19,902 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:52:19,940 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:52:19,940 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:52:19,940 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:52:19,940 - [INFO] <GETTER> <DATA>
-2016-09-20 23:52:38,207 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:52:38,207 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:52:38,207 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:52:38,207 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:52:38,223 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:52:38,223 - [INFO] <GETTER> <DATA>
-2016-09-20 23:52:58,215 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:52:58,215 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:52:58,215 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:52:58,215 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:52:58,231 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:52:58,231 - [INFO] <GETTER> <DATA>
-2016-09-20 23:53:18,219 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:53:18,220 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:53:18,220 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:53:18,220 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:53:18,220 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:53:18,220 - [INFO] <GETTER> <DATA>
-2016-09-20 23:53:38,208 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:53:38,208 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:53:38,216 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:53:38,216 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:53:38,222 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:53:38,223 - [INFO] <GETTER> <DATA>
-2016-09-20 23:53:58,215 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:53:58,215 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:53:58,215 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:53:58,215 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:53:58,215 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:53:58,230 - [INFO] <GETTER> <DATA>
-2016-09-20 23:54:18,215 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:54:18,216 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:54:18,217 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:54:18,217 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:54:18,217 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:54:18,217 - [INFO] <GETTER> <DATA>
-2016-09-20 23:54:38,209 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:54:38,210 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:54:38,217 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:54:38,217 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:54:38,222 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:54:38,223 - [INFO] <GETTER> <DATA>
-2016-09-20 23:55:31,282 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
-2016-09-20 23:55:31,300 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:55:53,737 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
-2016-09-20 23:55:53,751 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:58:25,064 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:58:25,064 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:58:25,064 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:58:25,064 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:58:25,064 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:25,064 - [INFO] <GETTER> <DATA>
-2016-09-20 23:58:30,775 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-20 23:58:30,775 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:58:30,775 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-20 23:58:30,776 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-20 23:58:30,784 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,793 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:58:30,807 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-20 23:58:30,807 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-20 23:58:30,816 - [INFO] <DATA_BASE> Get Gelts
-2016-09-20 23:58:30,816 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,824 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,824 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,832 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,832 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-20 23:58:30,833 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,840 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,841 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,847 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,848 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-20 23:58:30,848 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,855 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,855 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,861 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,861 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,872 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,872 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-20 23:58:30,881 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:30,881 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-20 23:58:35,353 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
-2016-09-20 23:58:35,364 - [INFO] <DATA_BASE> Get User-Names
-2016-09-20 23:58:52,274 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:58:52,275 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:58:52,283 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:58:52,283 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:58:52,288 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:58:52,288 - [INFO] <GETTER> <DATA>
-2016-09-20 23:59:13,089 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:59:13,089 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:59:13,089 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:59:13,089 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:59:13,089 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:59:13,089 - [INFO] <GETTER> <DATA>
-2016-09-20 23:59:33,082 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:59:33,082 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:59:33,082 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:59:33,082 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:59:33,082 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:59:33,082 - [INFO] <GETTER> <DATA>
-2016-09-20 23:59:53,080 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-20 23:59:53,080 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-20 23:59:53,080 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-20 23:59:53,080 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-20 23:59:53,080 - [INFO] <DATA_BASE> Get Users
-2016-09-20 23:59:53,080 - [INFO] <GETTER> <DATA>
-2016-09-21 00:00:13,097 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:00:13,098 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:00:13,105 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:00:13,105 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:00:13,111 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:00:13,111 - [INFO] <GETTER> <DATA>
-2016-09-21 00:00:33,081 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:00:33,081 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:00:33,088 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:00:33,089 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:00:33,094 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:00:33,094 - [INFO] <GETTER> <DATA>
-2016-09-21 00:00:53,081 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:00:53,082 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:00:53,089 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:00:53,089 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:00:53,094 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:00:53,094 - [INFO] <GETTER> <DATA>
-2016-09-21 00:01:13,082 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:01:13,082 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:01:13,082 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:01:13,082 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:01:13,082 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:13,082 - [INFO] <GETTER> <DATA>
-2016-09-21 00:01:33,085 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:01:33,085 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:01:33,085 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:01:33,085 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:01:33,085 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:33,085 - [INFO] <GETTER> <DATA>
-2016-09-21 00:01:52,472 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:01:52,473 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:01:52,479 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:01:52,480 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:01:52,486 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:52,486 - [INFO] <GETTER> <DATA>
-2016-09-21 00:01:53,213 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-21 00:01:53,213 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-21 00:01:53,214 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-21 00:01:53,214 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:01:53,221 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:01:53,233 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-21 00:01:53,233 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-21 00:01:53,240 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,247 - [INFO] <DATA_BASE> Get Gelts
-2016-09-21 00:01:53,248 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,253 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,254 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,265 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,265 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-21 00:01:53,265 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,272 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,272 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,278 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,279 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-21 00:01:53,279 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,285 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,285 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,291 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,292 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,300 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,300 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:01:53,307 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:01:53,307 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-21 00:02:21,993 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
-2016-09-21 00:02:22,000 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:02:45,259 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
-2016-09-21 00:02:45,267 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:02:54,298 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:02:54,298 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:02:54,298 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:02:54,298 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:02:54,298 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:02:54,298 - [INFO] <GETTER> <DATA>
-2016-09-21 00:03:15,089 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:03:15,089 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:03:15,089 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:03:15,089 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:03:15,106 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:03:15,106 - [INFO] <GETTER> <DATA>
-2016-09-21 00:03:35,089 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:03:35,089 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:03:35,089 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:03:35,089 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:03:35,089 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:03:35,089 - [INFO] <GETTER> <DATA>
-2016-09-21 00:03:55,083 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:03:55,083 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:03:55,083 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:03:55,083 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:03:55,083 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:03:55,083 - [INFO] <GETTER> <DATA>
-2016-09-21 00:04:12,938 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-21 00:04:12,938 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:04:12,938 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-21 00:04:12,938 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-21 00:04:12,946 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:12,957 - [INFO] <DATA_BASE> Get Gelts
-2016-09-21 00:04:12,957 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:12,963 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:04:12,971 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-21 00:04:12,972 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-21 00:04:12,978 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:12,979 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:12,986 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:12,987 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-21 00:04:12,987 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:12,994 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:12,994 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,001 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,002 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-21 00:04:13,002 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,006 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,007 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,011 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,012 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,018 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,019 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,028 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,028 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-21 00:04:13,851 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-21 00:04:13,851 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-21 00:04:13,852 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-21 00:04:13,852 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:04:13,858 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:04:13,869 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-21 00:04:13,869 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-21 00:04:13,874 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,880 - [INFO] <DATA_BASE> Get Gelts
-2016-09-21 00:04:13,881 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,887 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,887 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,893 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,894 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-21 00:04:13,894 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,900 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,900 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,905 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,905 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-21 00:04:13,905 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,911 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,912 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,921 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,922 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,931 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,931 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:13,937 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:13,938 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-21 00:04:21,976 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
-2016-09-21 00:04:21,987 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:04:43,973 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:04:43,973 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:04:43,973 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:04:43,973 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:04:43,973 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:43,973 - [INFO] <GETTER> <DATA>
-2016-09-21 00:04:58,876 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-21 00:04:58,876 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-21 00:04:58,876 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:04:58,877 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-21 00:04:58,883 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:04:58,892 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,899 - [INFO] <DATA_BASE> Get Gelts
-2016-09-21 00:04:58,899 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,909 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-21 00:04:58,909 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-21 00:04:58,915 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,915 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,922 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,923 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-21 00:04:58,923 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,928 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,929 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,934 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,935 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-21 00:04:58,935 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,941 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,941 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,948 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,948 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,954 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,955 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:04:58,963 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:04:58,963 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-21 00:05:05,299 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
-2016-09-21 00:05:05,307 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:05:10,321 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
-2016-09-21 00:05:10,332 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:05:15,760 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
-2016-09-21 00:05:15,775 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:05:25,090 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:05:25,091 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:05:25,093 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:05:25,093 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:05:25,093 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:05:25,093 - [INFO] <GETTER> <DATA>
-2016-09-21 00:05:45,095 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:05:45,095 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:05:45,095 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:05:45,095 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:05:45,095 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:05:45,095 - [INFO] <GETTER> <DATA>
-2016-09-21 00:06:06,089 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:06:06,089 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:06:06,089 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:06:06,089 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:06:06,089 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:06,089 - [INFO] <GETTER> <DATA>
-2016-09-21 00:06:21,736 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:06:21,736 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-09-21 00:06:21,736 - [INFO] <BUSINESS_LOGIC> Get users
-2016-09-21 00:06:21,737 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-09-21 00:06:21,744 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,751 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:06:21,758 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-09-21 00:06:21,758 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-09-21 00:06:21,765 - [INFO] <DATA_BASE> Get Gelts
-2016-09-21 00:06:21,765 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,771 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,772 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,778 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,778 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
-2016-09-21 00:06:21,778 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,783 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,783 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,788 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,788 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
-2016-09-21 00:06:21,788 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,796 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,797 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,807 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,808 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,815 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,816 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-09-21 00:06:21,822 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:21,823 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"} ]}
-2016-09-21 00:06:25,691 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
-2016-09-21 00:06:25,707 - [INFO] <DATA_BASE> Get User-Names
-2016-09-21 00:06:43,207 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-09-21 00:06:43,208 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-09-21 00:06:43,209 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-09-21 00:06:43,209 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:06:43,209 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:06:43,209 - [INFO] <GETTER> <DATA>
-2016-09-21 00:07:22,528 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-09-21 00:07:22,534 - [INFO] <DATA_BASE> Get Users
-2016-09-21 00:07:22,541 - [INFO] <DATA_BASE> Get Gelts
-2016-09-21 00:07:22,541 - [INFO] { "debts":[ ]}
+2016-09-21 00:22:23,880 - [INFO] Application started (Dev)
+2016-09-21 00:22:24,851 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:22:24,851 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:22:24,851 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:22:24,856 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:22:25,061 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,077 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:22:25,093 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:22:25,093 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:22:25,110 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:22:25,111 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,113 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,113 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,113 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,113 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:22:25,113 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,134 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,135 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,142 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,142 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:22:25,142 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,149 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,150 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,156 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,157 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:22:25,157 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,162 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,162 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,169 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,170 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,176 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,176 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,183 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,184 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,191 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,191 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:25,200 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:25,201 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:22:30,124 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:22:30,131 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:30,141 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:22:30,142 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:30,149 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:30,150 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:30,156 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:30,157 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:22:30,157 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:30,165 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:30,165 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:22:30,171 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:30,172 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:22:45,092 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:22:45,092 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:22:45,092 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:22:45,092 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:22:45,109 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:22:45,109 - [INFO] <GETTER> <DATA>
+2016-09-21 00:23:05,086 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:23:05,086 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:23:05,086 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:23:05,086 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:23:05,101 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:05,101 - [INFO] <GETTER> <DATA>
+2016-09-21 00:23:20,467 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:23:20,475 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:23:26,210 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:23:26,210 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:23:26,210 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:23:26,210 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:23:26,210 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:26,210 - [INFO] <GETTER> <DATA>
+2016-09-21 00:23:29,429 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:23:29,429 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:23:29,429 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:23:29,430 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:23:29,439 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:23:29,451 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,459 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:23:29,460 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:23:29,466 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:23:29,466 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,474 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,474 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,480 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,480 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:23:29,480 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,487 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,488 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,495 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,496 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:23:29,496 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,503 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,503 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,510 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,510 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:23:29,511 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,518 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,519 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,525 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,525 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,531 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,531 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,536 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,537 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,543 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,544 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:29,552 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:29,552 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:23:33,461 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:23:33,471 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:23:42,754 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:23:42,754 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:23:42,755 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:23:42,755 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:23:42,765 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:23:42,776 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:23:42,776 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:23:42,784 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,792 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:23:42,792 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,799 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,800 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,808 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,808 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:23:42,808 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,816 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,817 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,826 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,827 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:23:42,827 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,835 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,835 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,840 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,841 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:23:42,841 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,847 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,847 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,853 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,853 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,860 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,861 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,867 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,868 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,873 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,873 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:23:42,881 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:23:42,881 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:24:13,143 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:24:13,156 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:24:34,733 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
+2016-09-21 00:24:34,742 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:24:37,854 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:24:37,854 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:24:37,854 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:24:37,854 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:24:37,854 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:24:37,854 - [INFO] <GETTER> <DATA>
+2016-09-21 00:24:57,851 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:24:57,851 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:24:57,851 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:24:57,851 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:24:57,867 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:24:57,867 - [INFO] <GETTER> <DATA>
+2016-09-21 00:25:11,692 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:25:11,693 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:25:11,693 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:25:11,693 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:25:11,702 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,713 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:25:11,714 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,719 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:25:11,725 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:25:11,725 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:25:11,732 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,733 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,741 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,741 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:25:11,741 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,747 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,748 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,754 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,755 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:25:11,755 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,763 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,763 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,769 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,770 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:25:11,770 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,776 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,777 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,784 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,785 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,792 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,793 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,798 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,799 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,803 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,804 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:25:11,809 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:11,809 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:25:22,262 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:25:22,270 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:25:40,340 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:25:40,340 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:25:40,347 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:25:40,347 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:25:40,352 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:25:40,353 - [INFO] <GETTER> <DATA>
+2016-09-21 00:26:00,351 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:26:00,351 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:26:00,351 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:26:00,351 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:26:00,351 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:26:00,351 - [INFO] <GETTER> <DATA>
+2016-09-21 00:26:20,349 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:26:20,349 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:26:20,349 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:26:20,349 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:26:20,349 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:26:20,349 - [INFO] <GETTER> <DATA>
+2016-09-21 00:26:40,347 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:26:40,347 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:26:40,347 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:26:40,347 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:26:40,347 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:26:40,347 - [INFO] <GETTER> <DATA>
+2016-09-21 00:27:00,346 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:27:00,346 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:27:00,346 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:27:00,346 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:27:00,346 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:00,346 - [INFO] <GETTER> <DATA>
+2016-09-21 00:27:21,398 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:27:21,398 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:27:21,414 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:27:21,414 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:27:21,419 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:21,419 - [INFO] <GETTER> <DATA>
+2016-09-21 00:27:24,485 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:27:24,486 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:27:24,487 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:27:24,487 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:27:24,494 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:27:24,503 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:27:24,504 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:27:24,512 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,523 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:27:24,523 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,532 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,532 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,540 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,541 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:27:24,541 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,548 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,549 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,556 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,558 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:27:24,558 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,565 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,565 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,574 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,575 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:27:24,575 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,583 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,583 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,591 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,592 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,604 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,605 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,613 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,613 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,622 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,623 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:27:24,631 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:24,632 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:27:30,893 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:27:30,899 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:27:48,351 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:27:48,351 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:27:48,351 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:27:48,351 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:27:48,351 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:27:48,351 - [INFO] <GETTER> <DATA>
+2016-09-21 00:28:09,091 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:28:09,091 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:28:09,091 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:28:09,091 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:28:09,091 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:28:09,091 - [INFO] <GETTER> <DATA>
+2016-09-21 00:28:29,081 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:28:29,081 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:28:29,082 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:28:29,082 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:28:29,082 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:28:29,082 - [INFO] <GETTER> <DATA>
+2016-09-21 00:28:49,079 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:28:49,079 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:28:49,079 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:28:49,079 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:28:49,079 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:28:49,079 - [INFO] <GETTER> <DATA>
+2016-09-21 00:29:09,080 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:29:09,080 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:29:09,080 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:29:09,080 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:29:09,080 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:29:09,080 - [INFO] <GETTER> <DATA>
+2016-09-21 00:29:29,081 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:29:29,082 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:29:29,082 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:29:29,082 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:29:29,082 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:29:29,082 - [INFO] <GETTER> <DATA>
+2016-09-21 00:29:49,081 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:29:49,082 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:29:49,082 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:29:49,082 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:29:49,082 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:29:49,082 - [INFO] <GETTER> <DATA>
+2016-09-21 00:31:14,224 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
+2016-09-21 00:31:14,239 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:31:33,153 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:31:33,153 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:31:33,153 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:31:33,154 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:31:33,161 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,171 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:31:33,171 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,177 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:31:33,184 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:31:33,185 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:31:33,190 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,191 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,198 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,198 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:31:33,198 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,205 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,206 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,212 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,212 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:31:33,212 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,218 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,218 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,227 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,228 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:31:33,228 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,235 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,235 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,241 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,242 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,248 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,248 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,254 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,254 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,261 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,261 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:33,266 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:33,267 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:31:40,220 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:31:40,220 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:31:40,226 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:40,233 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:31:40,234 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:40,243 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:40,244 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:40,251 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:31:40,257 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:40,258 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:31:40,258 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:40,264 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:40,264 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:40,270 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:40,270 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:31:51,826 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:31:51,826 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
+2016-09-21 00:31:51,834 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:51,844 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:31:51,854 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:31:51,855 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:51,861 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:51,862 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:51,869 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:51,869 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:31:51,869 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:51,874 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:51,874 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:31:51,879 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:31:51,880 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"} ]}
+2016-09-21 00:32:05,227 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:32:05,227 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:32:05,234 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:32:05,234 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:32:05,239 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:05,239 - [INFO] <GETTER> <DATA>
+2016-09-21 00:32:07,170 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:32:07,175 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:07,179 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:32:07,179 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:32:07,183 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:07,183 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:32:07,187 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:07,188 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:32:07,188 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:32:07,191 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:07,192 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:32:07,196 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:07,196 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:32:24,087 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:32:24,087 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:32:24,101 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:32:24,101 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:32:24,106 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:24,106 - [INFO] <GETTER> <DATA>
+2016-09-21 00:32:44,084 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:32:44,084 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:32:44,084 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:32:44,084 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:32:44,084 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:32:44,084 - [INFO] <GETTER> <DATA>
+2016-09-21 00:33:04,080 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:33:04,081 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:33:04,086 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:33:04,087 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:33:04,091 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:04,091 - [INFO] <GETTER> <DATA>
+2016-09-21 00:33:12,130 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:33:13,668 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:24,079 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:33:24,080 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:33:24,085 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:33:24,085 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:33:24,090 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:24,090 - [INFO] <GETTER> <DATA>
+2016-09-21 00:33:27,429 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:33:27,429 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:33:27,435 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:27,435 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:33:27,440 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:27,440 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:33:27,440 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:33:27,445 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:27,445 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:33:27,450 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:27,450 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:33:44,080 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:33:44,080 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:33:44,086 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:33:44,086 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:33:44,090 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:33:44,091 - [INFO] <GETTER> <DATA>
+2016-09-21 00:33:45,974 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:33:46,013 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:34:04,080 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:34:04,080 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:34:14,997 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:34:44,080 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:34:44,080 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:35:07,190 - [INFO] Application started (Dev)
+2016-09-21 00:35:07,206 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:35:07,207 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:35:07,213 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:35:07,214 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:35:07,219 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:35:07,220 - [INFO] <GETTER> <DATA>
+2016-09-21 00:35:24,065 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:35:24,066 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:35:24,071 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:35:24,071 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:35:24,076 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:35:24,076 - [INFO] <GETTER> <DATA>
+2016-09-21 00:35:44,064 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:35:44,064 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:35:44,069 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:35:44,070 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:35:44,074 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:35:44,075 - [INFO] <GETTER> <DATA>
+2016-09-21 00:35:57,467 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:35:57,468 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:35:57,474 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:35:57,474 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:35:57,480 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:35:57,480 - [INFO] <GETTER> <DATA>
+2016-09-21 00:35:57,487 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:35:57,487 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:35:57,487 - [INFO] <GETTER> <DATA>
+2016-09-21 00:35:57,488 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:35:57,494 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:35:57,495 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:35:57,500 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:35:57,501 - [INFO] <GETTER> <DATA>
+2016-09-21 00:36:02,713 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:02,720 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:02,720 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:02,725 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:02,725 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:36:02,725 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:02,729 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:02,729 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:02,734 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:02,734 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:36:04,068 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:36:04,068 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:36:04,068 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:36:04,068 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:36:04,068 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:04,068 - [INFO] <GETTER> <DATA>
+2016-09-21 00:36:11,240 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:36:11,245 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:22,123 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:36:24,081 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:36:24,081 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:36:44,793 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:44,798 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:36:44,798 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:36:44,803 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:44,804 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:44,808 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:44,808 - [INFO] <GETTER> <DATA>
+2016-09-21 00:36:44,812 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:36:44,812 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:36:44,813 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:44,814 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:36:44,814 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:44,818 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:36:44,818 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:36:44,822 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:44,822 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:36:44,826 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:44,827 - [INFO] <GETTER> <DATA>
+2016-09-21 00:36:44,831 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:36:44,831 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"} ]}
+2016-09-21 00:37:04,085 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:37:04,085 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:37:04,087 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:37:04,087 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:37:04,087 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:37:04,087 - [INFO] <GETTER> <DATA>
+2016-09-21 00:37:24,081 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:37:24,081 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:37:24,082 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:37:24,082 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:37:24,082 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:37:24,082 - [INFO] <GETTER> <DATA>
+2016-09-21 00:37:44,091 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:37:44,092 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:37:44,093 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:37:44,093 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:37:44,093 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:37:44,093 - [INFO] <GETTER> <DATA>
+2016-09-21 00:38:04,089 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:38:04,090 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:38:04,091 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:38:04,091 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:04,091 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:04,091 - [INFO] <GETTER> <DATA>
+2016-09-21 00:38:15,752 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:15,752 - [INFO] <BUSINESS_LOGIC> Get users
+2016-09-21 00:38:15,752 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
+2016-09-21 00:38:15,753 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
+2016-09-21 00:38:15,758 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,764 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:38:15,770 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
+2016-09-21 00:38:15,770 - [INFO] <GETTER> <DATA>[test3, test2]
+2016-09-21 00:38:15,774 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:38:15,774 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,779 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,780 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,786 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,786 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:38:15,786 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,792 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,792 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,797 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,798 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 565 : Nathan
+2016-09-21 00:38:15,798 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,803 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,804 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,810 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,811 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:38:15,811 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,817 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,818 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,824 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,824 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,830 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,830 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,837 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,837 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,842 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,843 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:15,847 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:15,848 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"}, {"Debter":"Y.Nathan","Amount":"565","Entitled":"Nathan"}, {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:38:19,660 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:19,663 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
+2016-09-21 00:38:19,667 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:19,675 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:38:19,680 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:38:19,680 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:19,685 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:19,685 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:19,693 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:19,693 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:38:19,693 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:19,699 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:19,699 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:19,705 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:19,705 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"} ]}
+2016-09-21 00:38:26,380 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:38:26,380 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:26,388 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:38:26,395 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:26,400 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:38:26,400 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:26,406 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:26,407 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:26,413 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:26,413 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:38:26,413 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:26,419 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:26,419 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:26,424 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:26,424 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:38:35,501 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test2
+2016-09-21 00:38:35,501 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:35,507 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:38:35,513 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:35,520 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:38:35,520 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:35,526 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:35,526 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:35,534 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:35,535 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 200 : Moyshale
+2016-09-21 00:38:35,535 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:35,541 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:35,541 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:35,546 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:35,546 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"200","Entitled":"Moyshale"} ]}
+2016-09-21 00:38:40,524 - [INFO] <BUSINESS_LOGIC> Get users name of group id : test3
+2016-09-21 00:38:40,524 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:40,530 - [INFO] <DATA_BASE> Get User-Names
+2016-09-21 00:38:40,535 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:40,541 - [INFO] <DATA_BASE> Get Gelts
+2016-09-21 00:38:40,541 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:40,547 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:40,548 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:40,554 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:40,555 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
+2016-09-21 00:38:40,555 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:40,560 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:40,560 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-09-21 00:38:40,564 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:40,565 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"} ]}
+2016-09-21 00:38:40,863 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-09-21 00:38:40,863 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-09-21 00:38:40,868 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-09-21 00:38:40,868 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-09-21 00:38:40,870 - [INFO] <DATA_BASE> Get Users
+2016-09-21 00:38:40,870 - [INFO] <GETTER> <DATA>
