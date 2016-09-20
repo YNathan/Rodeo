@@ -63,6 +63,18 @@ public class getterBL {
     }
 
     /**
+     * Get all the debts from the data-base
+     *
+     * @return an array-list contain all debts
+     */
+    public ArrayList<Gelt> getGroupGelts(String szGroupId) {
+        // INFO
+        play.Logger.info("<BUSINESS_LOGIC> Get gelts of group id :"+szGroupId);
+
+        return getterDB.getGelts(szGroupId);
+    }
+
+    /**
      * @param szUserName - the name of the user who ask
      * @return an array that will contain the debts that concern the user
      */
@@ -94,6 +106,61 @@ public class getterBL {
         int nUserId = getIdByName(szUserName);
         // Get all debts from the data-base
         ArrayList<Gelt> getls = getterDB.getGelts();
+        // Looping over all debts from the data base and checking if there is
+        // concerned debts
+        for (Gelt currGelts : getls) {
+            // check if the debter or the entitled is this user
+            if ((currGelts.getDebterID() == nUserId) || (currGelts.getEntitledID() == nUserId)) {
+                // Put the concerned debts in an array that contain the
+                // concerned debts
+                getlsConcerne.add(currGelts);
+                // Print for the fun to the screen
+                play.Logger.info("<BUSINESS_LOGIC> Get debt " + getNameById(currGelts.getDebterID()) + " : "
+                        + currGelts.getAmount() + " : " + getNameById(currGelts.getEntitledID()));
+            }
+        }
+        stringBuilder.append("{ \"debts\":[");
+
+        Iterator<Gelt> curr = getlsConcerne.iterator();
+
+        Gelt currentGelt = null;
+        if (curr.hasNext()) {
+            currentGelt = curr.next();
+        }
+        while (currentGelt != null) {
+            if (currentGelt.getDebterID() == nUserId || currentGelt.getEntitledID() == nUserId) {
+                stringBuilder.append(" {\"Debter\":\"" + getNameById(currentGelt.getDebterID()) + "\",");
+                stringBuilder.append("\"Amount\":\"" + currentGelt.getAmount() + "\",");
+                stringBuilder.append("\"Entitled\":\"" + getNameById(currentGelt.getEntitledID()) + "\"}");
+
+                if (curr.hasNext()) {
+                    stringBuilder.append(",");
+                    currentGelt = curr.next();
+                } else {
+                    currentGelt = null;
+                }
+            }
+
+        }
+
+        stringBuilder.append(" ]}");
+        return stringBuilder;
+    }
+
+
+    /**
+     * Get all debts that concern the user and a group if he is a debter are user
+     *
+     * @param szUserName - the name of the user who ask
+     * @return an array that will contain the debts that concern the user
+     */
+    public StringBuilder getGeltsByNameAndGroupsForOutput(String szUserName,String szGroupName) {
+        // This array will contain all the debts that concern the user
+        ArrayList<Gelt> getlsConcerne = new ArrayList<>();
+        StringBuilder stringBuilder = new StringBuilder();
+        int nUserId = getIdByName(szUserName);
+        // Get all debts from the data-base
+        ArrayList<Gelt> getls = getterDB.getGelts(szGroupName);
         // Looping over all debts from the data base and checking if there is
         // concerned debts
         for (Gelt currGelts : getls) {
@@ -216,6 +283,14 @@ public class getterBL {
         return usersName;
     }
 
+    public ArrayList<String> getUserNameOfGroups(String szUserName,String szGroupName) {
+        // INFO
+        play.Logger.info("<BUSINESS_LOGIC> Get users name of group id : "+szGroupName);
+        ArrayList<String> usersName = getterDB.getUserNamesOfGroup(szGroupName);
+        usersName.remove(szUserName);
+        return usersName;
+    }
+
     public Date getDateByString(String szDate) {
         // INFO
         play.Logger.info("<BUSINESS_LOGIC> Get date by string");
@@ -316,5 +391,19 @@ public class getterBL {
         }
             sbUserInformationToReturn.append(" ]}");
         return sbUserInformationToReturn;
+    }
+
+    /**
+     *
+     * @param szUserName - the user name of the a user
+     * @return a list of the groups name concerning the user
+     */
+    public ArrayList<String> getUserGroupsName(String szUserName) {
+        // INFO
+        play.Logger.info("<BUSINESS_LOGIC> Get the groups name for the user name : " + szUserName);
+
+        ArrayList<String> lstGroupsNameToReturn = getterDB.getUserGroupsName(szUserName);
+
+        return lstGroupsNameToReturn;
     }
 }

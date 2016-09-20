@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="scala" name="Scala">
-      <configuration>
-        <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="SBT: scala:2.10.3" />
-        <option name="languageLevel" value="Scala 2.10" />
-        <option name="fsc" value="true" />
-        <option name="deprecationWarnings" value="true" />
-        <option name="uncheckedWarnings" value="true" />
-        <option name="compilerOptions" value="-deprecation -unchecked" />
-      </configuration>
-    </facet>
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="defaultPersistenceUnit" />
+        </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../myExternalLibraries/play-2.2.6/samples/java/computer-database-jpa/conf/META-INF/persistence.xml" />
       </configuration>
     </facet>
@@ -43,7 +34,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:play-java-jdbc_2.10:2.2.6" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:play-jdbc_2.10:2.2.6" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:play_2.10:2.2.6" level="project" />
@@ -158,5 +148,6 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.seleniumhq.selenium:selenium-support:2.32.0:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-assert:1.4:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-util:1.1.6:test" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
   </component>
 </module>

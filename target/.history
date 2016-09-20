@@ -30,3 +30,7 @@ idea
 run
 reload
 run
+play
+run
+debug run
+exit

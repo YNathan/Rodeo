@@ -3,6 +3,7 @@ package controllers;
 import play.mvc.*;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -75,6 +76,17 @@ public class getter extends Controller {
         }
     }
 
+    public static Result getGroupGelts(String szUserName,String szGroupName) {
+        if (szUserName != null && szGroupName != null) {
+            String szResponce = getterBL.getGeltsByNameAndGroupsForOutput(szUserName,szGroupName).toString();
+            play.Logger.info(szResponce);
+            return play.mvc.Results.ok(szResponce);
+        } else {
+            return play.mvc.Results
+                    .badRequest("Null pointer screw you! \nyou send your request with an empty user-name or an group id!");
+        }
+    }
+
     public static Result getUsers(String szUserName) {
         if (szUserName != null) {
             return play.mvc.Results.ok(Json.toJson(getterBL.getUsers(szUserName)));
@@ -83,6 +95,16 @@ public class getter extends Controller {
                     .badRequest("Null pointer screw you! \nyou send your request with an empty user-name!");
         }
     }
+
+    public static Result getUserNameOfGroup(String szUserName,String szGroupName) {
+        if (szUserName != null) {
+            return play.mvc.Results.ok(Json.toJson(getterBL.getUserNameOfGroups(szUserName,szGroupName)));
+        } else {
+            return play.mvc.Results
+                    .badRequest("Null pointer screw you! \nyou send your request with an empty user-name or a group id!");
+        }
+    }
+
 
     public static Result checkIfUserIsDebter(String szUserName) {
         play.Logger.info("<GETTER> " + szUserName + " ask if is debter");
@@ -129,6 +151,18 @@ public class getter extends Controller {
             String szResponce = getterBL.getOwnerGroupInformation(szUserName).toString();
             play.Logger.info("<GETTER> <DATA>" + szResponce);
             return play.mvc.Results.ok(szResponce);
+        } else {
+            return play.mvc.Results
+                    .badRequest("Null pointer screw you! \nyou send your request with an empty user-name!");
+        }
+    }
+    public static Result getUserGroupsName(String szUserName) {
+        play.Logger.info("<GETTER> " + request().remoteAddress() + " ask groups name of the user : "+ szUserName);
+        System.out.println(new SimpleDateFormat("HH:mm:ss").format(Calendar.getInstance().getTime()) + " <GETTER> " + szUserName + " in IP : " + request().remoteAddress() + " : groups name of user : " + szUserName);
+        if (szUserName != null) {
+            ArrayList<String> szResponce = getterBL.getUserGroupsName(szUserName);
+            play.Logger.info("<GETTER> <DATA>" + szResponce);
+            return play.mvc.Results.ok(Json.toJson(szResponce));
         } else {
             return play.mvc.Results
                     .badRequest("Null pointer screw you! \nyou send your request with an empty user-name!");

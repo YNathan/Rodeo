@@ -4,6 +4,7 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
     $scope.message = 'M. ' + getCookie("username");
     $scope.DebterName = "No user detected";
     $scope.usersName = [];
+    $scope.userGroupsName = [];
     $scope.user = null;
     $scope.userName = getCookie("username");
     $scope.firstName = "";
@@ -13,7 +14,7 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
     $scope.password = "";
     $scope.birthdate;
     $scope.userId = "";
-    $scope
+    var groupName = "";
     var bIsNumberChanged = false;
     var bIsNameChanged = false;
 
@@ -34,6 +35,16 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
         );
     }
 
+    // For the user groups name
+    $scope.userGroupsName = {
+        availableOptions: [],
+        selectedOption: {
+            id: '1',
+            name: 'default'
+        }
+    };
+
+
     // For the users-name
     $scope.data = {
         availableOptions: [],
@@ -51,6 +62,23 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
             Debtes: 'default'
         }
     };
+
+    // Get user groups name
+    $http({
+        method: 'GET',
+        url: '/GET_USER_GROUPS_NAME/' + getCookie("username")
+    }).then(function successCallback(response) {
+        var tempArr = [];
+        angular.forEach(response.data, function (value, key) {
+            itemName = {
+                id: key,
+                name: value
+            }
+            tempArr.push(itemName);
+            $scope.userGroupsName.availableOptions.push(itemName);
+        }, $scope.userGroupsName);
+
+    });
 
     // Get users name
     $http({
@@ -70,11 +98,9 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
         angular.forEach(tempArr, function (value, key) {
             $scope.usersName.push(value.name);
         }, $scope.data);
-
-
     });
 
-    // Get debts conserning the user
+    // Get debts concerning the user
     $http.get("/GET_GELT/" + getCookie("username"))
         .then(function (response) {
             $scope.debts = response.data.debts;
@@ -202,8 +228,56 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
         }
     };
 
+
+    function submitGroup() {
+
+        getUsers(groupName.name);
+        getDebtes(groupName.name);
+    }
+
+    function getUsers(groupname) {
+        $scope.usersName = null;
+        // Get users name
+        $http({
+            method: 'GET',
+            url: '/GET_USERSNAME_OF_GROUPS/' + getCookie("username") + "/" + groupname
+        }).then(function successCallback(response) {
+            var tempArr = [];
+            angular.forEach(response.data, function (value, key) {
+                itemName = {
+                    id: key,
+                    name: value
+                }
+                tempArr.push(itemName);
+                $scope.data.availableOptions = tempArr;
+            }, $scope.data);
+
+            angular.forEach(tempArr, function (value, key) {
+                $scope.usersName.push(value.name);
+            }, $scope.data);
+        });
+
+
+    }
+
+    function getDebtes(groupname) {
+        $scope.debts = null;
+        // Get debts concerning the user
+        $http.get("/GET_DEBTS_OF_GROUPS/" + getCookie("username")) + "/"+ groupname
+            .then(function (response) {
+                $scope.debts = response.data.debts;
+            });
+    }
+
+    $scope.$watch('userGroupsName.selectedOption', function (newVal, oldVal) {
+        if (newVal != oldVal) {
+            groupName = newVal;
+            alert(newVal.name);
+            submitGroup();
+        }
+    })
     $scope.goToCopyright = function () {
-    $state.go('Copyright');
+        $state.go('Copyright');
     }
     $scope.goToUserInformation = function () {
         $state.go('userInformation');

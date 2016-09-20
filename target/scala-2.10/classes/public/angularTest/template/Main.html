@@ -1,18 +1,29 @@
 <md-button class="menu" ng-click="toggleLeft()">
     <md-icon md-svg-icon="menu"></md-icon>
 </md-button>
-<div layout="row" layout-wrap>
-    <div flex="30">
-    </div>
-    <div flex="45">
+<div layout="column" layout-sm="column" flex>
+    <div>
         <center><label class="myFont">Wellcom To Your Account</label></center>
         <center>
             <div class="myFont">{{message}}</div>
         </center>
     </div>
-    <div flex="25">
-    </div>
-    <div flex="33">
+</div>
+<div layout="row" layout-sm="column" flex>
+    <form ng-submit="submitGroup()">
+        <label class="myFont">Select a Group</label> <md-input-container>
+        <md-select placeholder="Assign to Group" ng-model="userGroupsName.selectedOption">
+            <md-option ng-value="groupsName" ng-repeat="groupsName in userGroupsName.availableOptions">{{groupsName.name}}</md-option>
+        </md-select>
+    </md-input-container>
+        </form>
+
+</div>
+
+
+<div layout="row" layout-sm="column">
+    <div flex="5"></div>
+    <div flex>
         <form ng-submit="submit()">
 
             <label class="myFont">choose a debter: </label>
@@ -39,7 +50,7 @@
             Yes I Confirm</md-button></br>
         </form>
     </div>
-    <div flex="66">
+    <div flex>
         <table class="rwd-table">
             <h1>Debts Table</h1>
             <tr>

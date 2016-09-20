@@ -21,6 +21,10 @@ POST        /PAY/:szDebterName/:szAmount/:szEntitledName                        
 GET         /GET_USER_INFORMATION/:szUserName                                                      controllers.getter.getUserInformation(szUserName:String)
 GET         /GET_OWNER_INFORMATION/:szUserName                                                     controllers.getter.getOwnerGroupInformation(szUserName:String)
 GET         /GET_GROUPS_INFORMATION/:szUserName                                                    controllers.getter.getGroupsUser(szUserName:String)
+GET         /GET_USERSNAME_OF_GROUPS/:szUserName/:szGroupId                                        controllers.getter.getUserNameOfGroup(szUserName:String,szGroupId:String)
+GET         /GET_USER_GROUPS_NAME/:szUserName                                                      controllers.getter.getUserGroupsName(szUserName:String)
+GET         /GET_DEBTS_OF_GROUPS/:szUserName/:szGroupId                                            controllers.getter.getGroupGelts(szUserName:String,szGroupId:String)
+GET         /GET_GROUPS_USER/:szUserName/:szGroupId                                                controllers.getter.getGroupGelts(szUserName:String,szGroupId:String)
 # Upload file to the server
 POST        /upload                                                                                controllers.setter.uploadFile
 POST        /upload/:szUserName                                                                    controllers.setter.uploadFileWithName(szUserName:String)
