@@ -25,6 +25,9 @@ GET         /GET_USERSNAME_OF_GROUPS/:szUserName/:szGroupId                     
 GET         /GET_USER_GROUPS_NAME/:szUserName                                                      controllers.getter.getUserGroupsName(szUserName:String)
 GET         /GET_DEBTS_OF_GROUPS/:szUserName/:szGroupId                                            controllers.getter.getGroupGelts(szUserName:String,szGroupId:String)
 GET         /GET_GROUPS_USER/:szUserName/:szGroupId                                                controllers.getter.getGroupGelts(szUserName:String,szGroupId:String)
+POST        /INSERT_TEMP_GELT/:szDebterName/:szAmount/:szEntitledName/:szGroupName                 controllers.setter.newTempGelt(szDebterName:String,szAmount:String,szEntitledName:String,szGroupName: String)
+POST        /CONFIRM_DEBT/:szDebterName/:szAmount/:szEntitledName/:szGroupName                     controllers.setter.confirmDebt(szDebterName:String,szAmount:String,szEntitledName:String,szGroupName:String)
+POST        /NOT_CONFIRM_DEBT/:szDebterName/:szAmount/:szEntitledName/:szGroupName                 controllers.setter.notConfirmDebt(szDebterName:String,szAmount:String,szEntitledName:String,szGroupName:String)
 # Upload file to the server
 POST        /upload                                                                                controllers.setter.uploadFile
 POST        /upload/:szUserName                                                                    controllers.setter.uploadFileWithName(szUserName:String)

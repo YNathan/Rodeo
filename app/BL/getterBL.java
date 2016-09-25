@@ -242,9 +242,9 @@ public class getterBL {
      * @param szUserName - the userName that we want to check if still exist
      * @return true if there still a user name like this in the system
      */
-    public boolean isUserNameAlreadyExist(String szUserName) {
+    public boolean isUserNameExist(String szUserName) {
         // INFO
-        play.Logger.info("<BUSINESS_LOGIC> Get is user_name already exist");
+        play.Logger.info("<BUSINESS_LOGIC> Get is user_name exist");
 
         boolean isUserNameAlreadyExist = false;
         ArrayList<String> usersName = getterDB.getUserNames();
@@ -326,7 +326,7 @@ public class getterBL {
             Gelt currGelt = itterGelt.next();
             if (currGelt.getDebterID() == getIdByName(szUserName)) {
                 sbGeltToReturn.append("{ \"currDebt\":[ {\"Amount\":\"" + currGelt.getAmount() + "\",\"Entitled\":\""
-                        + getNameById(currGelt.getEntitledID()) + "\"} ]}");
+                        + getNameById(currGelt.getEntitledID()) + "\",\"Group\":\""+getterDB.getGroup(currGelt.getGroupID()).getGroupName()+"\"} ]}");
 
                 bWasFound = true;
             }

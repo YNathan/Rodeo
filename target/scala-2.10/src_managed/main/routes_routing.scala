@@ -1,6 +1,6 @@
 // @SOURCE:C:/devl/work/Rodeo2016-07-28/preprod/conf/routes
-// @HASH:904e37404a456d6ffc6e1f3f688a386a069530ec
-// @DATE:Sun Sep 18 20:41:54 IDT 2016
+// @HASH:11a271a8437024654051e77d91fe56e4db025f8e
+// @DATE:Sun Sep 25 19:53:30 IDT 2016
 
 
 import play.core._
@@ -112,18 +112,30 @@ private[this] lazy val controllers_getter_getGroupGelts19 = Route("GET", PathPat
 private[this] lazy val controllers_getter_getGroupGelts20 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("GET_GROUPS_USER/"),DynamicPart("szUserName", """[^/]+""",true),StaticPart("/"),DynamicPart("szGroupId", """[^/]+""",true))))
         
 
+// @LINE:28
+private[this] lazy val controllers_setter_newTempGelt21 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("INSERT_TEMP_GELT/"),DynamicPart("szDebterName", """[^/]+""",true),StaticPart("/"),DynamicPart("szAmount", """[^/]+""",true),StaticPart("/"),DynamicPart("szEntitledName", """[^/]+""",true),StaticPart("/"),DynamicPart("szGroupName", """[^/]+""",true))))
+        
+
 // @LINE:29
-private[this] lazy val controllers_setter_uploadFile21 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("upload"))))
+private[this] lazy val controllers_setter_confirmDebt22 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("CONFIRM_DEBT/"),DynamicPart("szDebterName", """[^/]+""",true),StaticPart("/"),DynamicPart("szAmount", """[^/]+""",true),StaticPart("/"),DynamicPart("szEntitledName", """[^/]+""",true),StaticPart("/"),DynamicPart("szGroupName", """[^/]+""",true))))
         
 
 // @LINE:30
-private[this] lazy val controllers_setter_uploadFileWithName22 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("upload/"),DynamicPart("szUserName", """[^/]+""",true))))
+private[this] lazy val controllers_setter_notConfirmDebt23 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("NOT_CONFIRM_DEBT/"),DynamicPart("szDebterName", """[^/]+""",true),StaticPart("/"),DynamicPart("szAmount", """[^/]+""",true),StaticPart("/"),DynamicPart("szEntitledName", """[^/]+""",true),StaticPart("/"),DynamicPart("szGroupName", """[^/]+""",true))))
         
 
 // @LINE:32
-private[this] lazy val controllers_Assets_at23 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+private[this] lazy val controllers_setter_uploadFile24 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("upload"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """REGISTER_PAGE""","""controllers.Application.Register()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """MAIN""","""controllers.Application.Main()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """LOGIN/$Username<[^/]+>/$Password<[^/]+>""","""controllers.getter.isLoginPermited(Username:String, Password:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CHECK_USER_NAME/$USER_NAME<[^/]+>""","""controllers.getter.isUserNameAlreadyExist(USER_NAME:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CHECK_EMAIL/$Email<[^/]+>""","""controllers.getter.isEmailAlreadyExist(Email:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_GELT/$userName<[^/]+>""","""controllers.getter.getGelts(userName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USERS/$userName<[^/]+>""","""controllers.getter.getUsers(userName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """INSERT_GELT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.newGelt(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """REGISTER/$userName<[^/]+>/$firstName<[^/]+>/$lastName<[^/]+>/$telephone<[^/]+>/$email<[^/]+>/$password<[^/]+>/$birthdate<[^/]+>""","""controllers.setter.registerNewUser(userName:String, firstName:String, lastName:String, telephone:String, email:String, password:String, birthdate:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """IS_DEBTER/$szUserName<[^/]+>""","""controllers.getter.checkIfUserIsDebter(szUserName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CONFIRMATION/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.confirm(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """NOT_CONFIRMATION/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.notConfirm(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """PAY/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.pay(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USER_INFORMATION/$szUserName<[^/]+>""","""controllers.getter.getUserInformation(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_OWNER_INFORMATION/$szUserName<[^/]+>""","""controllers.getter.getOwnerGroupInformation(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_GROUPS_INFORMATION/$szUserName<[^/]+>""","""controllers.getter.getGroupsUser(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USERSNAME_OF_GROUPS/$szUserName<[^/]+>/$szGroupId<[^/]+>""","""controllers.getter.getUserNameOfGroup(szUserName:String, szGroupId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USER_GROUPS_NAME/$szUserName<[^/]+>""","""controllers.getter.getUserGroupsName(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_DEBTS_OF_GROUPS/$szUserName<[^/]+>/$szGroupId<[^/]+>""","""controllers.getter.getGroupGelts(szUserName:String, szGroupId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_GROUPS_USER/$szUserName<[^/]+>/$szGroupId<[^/]+>""","""controllers.getter.getGroupGelts(szUserName:String, szGroupId:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload""","""controllers.setter.uploadFile"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload/$szUserName<[^/]+>""","""controllers.setter.uploadFileWithName(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:33
+private[this] lazy val controllers_setter_uploadFileWithName25 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("upload/"),DynamicPart("szUserName", """[^/]+""",true))))
+        
+
+// @LINE:35
+private[this] lazy val controllers_Assets_at26 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """REGISTER_PAGE""","""controllers.Application.Register()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """MAIN""","""controllers.Application.Main()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """LOGIN/$Username<[^/]+>/$Password<[^/]+>""","""controllers.getter.isLoginPermited(Username:String, Password:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CHECK_USER_NAME/$USER_NAME<[^/]+>""","""controllers.getter.isUserNameAlreadyExist(USER_NAME:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CHECK_EMAIL/$Email<[^/]+>""","""controllers.getter.isEmailAlreadyExist(Email:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_GELT/$userName<[^/]+>""","""controllers.getter.getGelts(userName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USERS/$userName<[^/]+>""","""controllers.getter.getUsers(userName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """INSERT_GELT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.newGelt(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """REGISTER/$userName<[^/]+>/$firstName<[^/]+>/$lastName<[^/]+>/$telephone<[^/]+>/$email<[^/]+>/$password<[^/]+>/$birthdate<[^/]+>""","""controllers.setter.registerNewUser(userName:String, firstName:String, lastName:String, telephone:String, email:String, password:String, birthdate:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """IS_DEBTER/$szUserName<[^/]+>""","""controllers.getter.checkIfUserIsDebter(szUserName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CONFIRMATION/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.confirm(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """NOT_CONFIRMATION/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.notConfirm(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """PAY/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""","""controllers.setter.pay(szDebterName:String, szAmount:String, szEntitledName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USER_INFORMATION/$szUserName<[^/]+>""","""controllers.getter.getUserInformation(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_OWNER_INFORMATION/$szUserName<[^/]+>""","""controllers.getter.getOwnerGroupInformation(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_GROUPS_INFORMATION/$szUserName<[^/]+>""","""controllers.getter.getGroupsUser(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USERSNAME_OF_GROUPS/$szUserName<[^/]+>/$szGroupId<[^/]+>""","""controllers.getter.getUserNameOfGroup(szUserName:String, szGroupId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_USER_GROUPS_NAME/$szUserName<[^/]+>""","""controllers.getter.getUserGroupsName(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_DEBTS_OF_GROUPS/$szUserName<[^/]+>/$szGroupId<[^/]+>""","""controllers.getter.getGroupGelts(szUserName:String, szGroupId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """GET_GROUPS_USER/$szUserName<[^/]+>/$szGroupId<[^/]+>""","""controllers.getter.getGroupGelts(szUserName:String, szGroupId:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """INSERT_TEMP_GELT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>""","""controllers.setter.newTempGelt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """CONFIRM_DEBT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>""","""controllers.setter.confirmDebt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """NOT_CONFIRM_DEBT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>""","""controllers.setter.notConfirmDebt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload""","""controllers.setter.uploadFile"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload/$szUserName<[^/]+>""","""controllers.setter.uploadFileWithName(szUserName:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -299,24 +311,48 @@ case controllers_getter_getGroupGelts20(params) => {
 }
         
 
+// @LINE:28
+case controllers_setter_newTempGelt21(params) => {
+   call(params.fromPath[String]("szDebterName", None), params.fromPath[String]("szAmount", None), params.fromPath[String]("szEntitledName", None), params.fromPath[String]("szGroupName", None)) { (szDebterName, szAmount, szEntitledName, szGroupName) =>
+        invokeHandler(controllers.setter.newTempGelt(szDebterName, szAmount, szEntitledName, szGroupName), HandlerDef(this, "controllers.setter", "newTempGelt", Seq(classOf[String], classOf[String], classOf[String], classOf[String]),"POST", """""", Routes.prefix + """INSERT_TEMP_GELT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>"""))
+   }
+}
+        
+
 // @LINE:29
-case controllers_setter_uploadFile21(params) => {
+case controllers_setter_confirmDebt22(params) => {
+   call(params.fromPath[String]("szDebterName", None), params.fromPath[String]("szAmount", None), params.fromPath[String]("szEntitledName", None), params.fromPath[String]("szGroupName", None)) { (szDebterName, szAmount, szEntitledName, szGroupName) =>
+        invokeHandler(controllers.setter.confirmDebt(szDebterName, szAmount, szEntitledName, szGroupName), HandlerDef(this, "controllers.setter", "confirmDebt", Seq(classOf[String], classOf[String], classOf[String], classOf[String]),"POST", """""", Routes.prefix + """CONFIRM_DEBT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>"""))
+   }
+}
+        
+
+// @LINE:30
+case controllers_setter_notConfirmDebt23(params) => {
+   call(params.fromPath[String]("szDebterName", None), params.fromPath[String]("szAmount", None), params.fromPath[String]("szEntitledName", None), params.fromPath[String]("szGroupName", None)) { (szDebterName, szAmount, szEntitledName, szGroupName) =>
+        invokeHandler(controllers.setter.notConfirmDebt(szDebterName, szAmount, szEntitledName, szGroupName), HandlerDef(this, "controllers.setter", "notConfirmDebt", Seq(classOf[String], classOf[String], classOf[String], classOf[String]),"POST", """""", Routes.prefix + """NOT_CONFIRM_DEBT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>"""))
+   }
+}
+        
+
+// @LINE:32
+case controllers_setter_uploadFile24(params) => {
    call { 
         invokeHandler(controllers.setter.uploadFile, HandlerDef(this, "controllers.setter", "uploadFile", Nil,"POST", """ Upload file to the server""", Routes.prefix + """upload"""))
    }
 }
         
 
-// @LINE:30
-case controllers_setter_uploadFileWithName22(params) => {
+// @LINE:33
+case controllers_setter_uploadFileWithName25(params) => {
    call(params.fromPath[String]("szUserName", None)) { (szUserName) =>
         invokeHandler(controllers.setter.uploadFileWithName(szUserName), HandlerDef(this, "controllers.setter", "uploadFileWithName", Seq(classOf[String]),"POST", """""", Routes.prefix + """upload/$szUserName<[^/]+>"""))
    }
 }
         
 
-// @LINE:32
-case controllers_Assets_at23(params) => {
+// @LINE:35
+case controllers_Assets_at26(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
         invokeHandler(controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
    }

@@ -119,17 +119,18 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
 
                 var amount = response.data.currDebt[0].Amount;
                 var entitled = response.data.currDebt[0].Entitled;
+                var group = response.data.currDebt[0].Group;
                 if (response.data != "")
-                    var bIsConfirmed = confirm("do you confirm that you need to give " + amount + " to m. " + entitled)
+                    var bIsConfirmed = confirm("do you confirm that you need to give " + amount + " to m. " + entitled + "in Group : " + group)
                 if (bIsConfirmed) {
                     // confirm a debts
-                    $http.post("/CONFIRMATION/" + getCookie("username") + '/' + amount + '/' + entitled)
+                    $http.post("/CONFIRM_DEBT/" + getCookie("username") + '/' + amount + '/' + entitled + '/'+ group)
                         .then(function (response) {
                             $scope.debts = response.data.debts;
                         });
                 } else {
                     // reject a debts
-                    $http.post("/NOT_CONFIRMATION/" + getCookie("username") + '/' + amount + '/' + entitled)
+                    $http.post("/NOT_CONFIRM_DEBT/" + getCookie("username") + '/' + amount + '/' + entitled + '/' + group)
                         .then(function (response) {
                             showAlert("responce from server", response.data, "great");
                         });
@@ -215,7 +216,7 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', '$mdDia
             // send the request to the server with the new debt
             $http({
                 method: 'POST',
-                url: '/INSERT_GELT/' + $scope.data.selectedOption.name + '/' + $scope.Amount + '/' + getCookie("username")
+                url: '/INSERT_TEMP_GELT/' + $scope.data.selectedOption.name + '/' + $scope.Amount + '/' + getCookie("username")+'/'+groupName.name
             }).then(
                 function successCallback(response) {
                     if (response.data == "true") {

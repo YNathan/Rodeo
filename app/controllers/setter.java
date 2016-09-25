@@ -29,7 +29,7 @@ public class setter {
 	private static setterBL setterBL = new setterBL();
 
 	/**
-	 * Inserting new debt.
+	 * Inserting new debt without a group.
 	 * 
 	 * @param szDebterName
 	 *            - the debtor name
@@ -50,6 +50,31 @@ public class setter {
 		} else {
 			return badRequest(
 					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
+		}
+	}
+
+	/**
+	 * Inserting new debt with a group.
+	 *
+	 * @param szDebterName
+	 *            - the debtor name
+	 * @param szAmount
+	 *            - the amount for inserting
+	 * @param szEntitledName
+	 *            - the entitled name
+	 * @return
+	 */
+	public static Result newTempGelt(String szDebterName, String szAmount, String szEntitledName, String szGroupName) {
+		if ((szDebterName != null) && (szAmount != null) && (szEntitledName != null) && (szGroupName != null)) {
+			if (setterBL.insertGelt(szDebterName, szAmount, szEntitledName, szGroupName)) {
+				return play.mvc.Results.ok("true");
+			} else {
+				return badRequest("An internal error as ocurred when trying to insert the temp gelt");
+			}
+
+		} else {
+			return badRequest(
+					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name or an empty group-name!");
 		}
 	}
 
@@ -75,7 +100,7 @@ public class setter {
 	 */
 	public static Result registerNewUser(String szUserName, String szFirstName, String szLastName, String szTelephone,
 			String szEmail, String szPassword, String szBirthdate) throws Exception {
-	//updateProfilePicture();
+		// updateProfilePicture();
 		// INFO
 		play.Logger.info("<SETTER> Register new user : \n============================\nFor : =>>\nUser name : "
 				+ szUserName + "\nFirst name : " + szFirstName + "\nLast name : " + szLastName + "\nTelephone : "
@@ -136,7 +161,34 @@ public class setter {
 		}
 
 	}
-	
+
+	/**
+	 * Confirm from a debtor in a group if the data of this debt is true
+	 * 
+	 * @param szDebterName
+	 *            - the debtor name
+	 * @param szAmount
+	 *            - the amount for inserting
+	 * @param szEntitledName
+	 *            - the entitled name
+	 * @return
+	 */
+	public static Result confirmDebt(String szDebterName, String szAmount, String szEntitledName, String szGroupName) {
+		play.Logger.info("<SETTER> Confiming");
+		if ((szDebterName != null) && (szAmount != null) && (szEntitledName != null) && (szGroupName != null)) {
+			if (setterBL.confirmDebt(szDebterName, szAmount, szEntitledName, szGroupName)) {
+				return play.mvc.Results.ok("true");
+			} else {
+				return badRequest("An internal error as ocurred when trying to insert the gelt");
+			}
+
+		} else {
+			return badRequest(
+					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an empty entitled-name or an empty group name!");
+		}
+
+	}
+
 	/**
 	 * Disapprove debt from a debtor if the data of this debt is true
 	 * 
@@ -163,7 +215,35 @@ public class setter {
 		}
 
 	}
-	
+
+	/**
+	 * Disapprove debt from a debtor in a group if the data of this debt is true
+	 * 
+	 * @param szDebterName
+	 *            - the debtor name
+	 * @param szAmount
+	 *            - the amount for inserting
+	 * @param szEntitledName
+	 *            - the entitled name
+	 * @return
+	 */
+	public static Result notConfirmDebt(String szDebterName, String szAmount, String szEntitledName,
+			String szGroupName) {
+		play.Logger.info("<SETTER> Not Confiming");
+		if ((szDebterName != null) && (szAmount != null) && (szEntitledName != null) && (szGroupName != null)) {
+			if (setterBL.notConfirm(szDebterName, szAmount, szEntitledName)) {
+				return play.mvc.Results.ok("true");
+			} else {
+				return badRequest("An internal error as ocurred when trying to insert the gelt");
+			}
+
+		} else {
+			return badRequest(
+					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an empty entitled-name or an empty group name!");
+		}
+
+	}
+
 	/**
 	 * pay a gelt
 	 * 
@@ -176,7 +256,8 @@ public class setter {
 	 * @return
 	 */
 	public static Result pay(String szDebterName, String szAmount, String szEntitledName) {
-		play.Logger.info("<SETTER> "+szEntitledName+" Say that "+szDebterName+" pay to hem the system send to delete the debt");
+		play.Logger.info("<SETTER> " + szEntitledName + " Say that " + szDebterName
+				+ " pay to hem the system send to delete the debt");
 		if ((szDebterName != null) && (szAmount != null) && (szEntitledName != null)) {
 			if (setterBL.pay(szDebterName, szAmount, szEntitledName)) {
 				return play.mvc.Results.ok("true");
@@ -193,25 +274,25 @@ public class setter {
 
 	/**
 	 * Get file(*can be a profile picture) from client and save in the server
+	 * 
 	 * @return
 	 * @throws IOException
 	 */
 	public static play.mvc.Result uploadFile() throws IOException {
-		if(updateProfilePicture())
-		{
+		if (updateProfilePicture()) {
 			return redirect("assets/index.html");
-		}else{
+		} else {
 			flash("error", "Missing file");
 			return badRequest();
 		}
-}
-	public static boolean updateProfilePicture(String szUserName)
-	{
+	}
+
+	public static boolean updateProfilePicture(String szUserName) {
 		play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
 		play.mvc.Http.MultipartFormData.FilePart picture = body.getFile("file");
 		if (picture != null) {
 			java.io.File sourceFile = picture.getFile();
-			File dest = new File(System.getProperty("user.dir")+"\\profilsPicture\\" + szUserName + ".jpg");
+			File dest = new File(System.getProperty("user.dir") + "\\profilsPicture\\" + szUserName + ".jpg");
 			try {
 				play.Logger.info("<SETTER> save profile picture on file");
 				setterBL.copyFile(sourceFile, dest);
@@ -225,13 +306,13 @@ public class setter {
 			return false;
 		}
 	}
-	public static boolean updateProfilePicture()
-	{
+
+	public static boolean updateProfilePicture() {
 		play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
 		play.mvc.Http.MultipartFormData.FilePart picture = body.getFile("file");
 		if (picture != null) {
 			java.io.File sourceFile = picture.getFile();
-			File dest = new File(System.getProperty("user.dir")+"\\profilsPicture\\" + picture.getFilename());
+			File dest = new File(System.getProperty("user.dir") + "\\profilsPicture\\" + picture.getFilename());
 			try {
 				play.Logger.info("<SETTER> save profile picture on file");
 				setterBL.copyFile(sourceFile, dest);
@@ -245,21 +326,20 @@ public class setter {
 			return false;
 		}
 	}
+
 	/**
 	 * Get file(*can be a profile picture) from client and save in the server
+	 * 
 	 * @return
 	 * @throws IOException
 	 */
 	public static play.mvc.Result uploadFileWithName(String szUserName) throws IOException {
-		if(updateProfilePicture(szUserName))
-		{
+		if (updateProfilePicture(szUserName)) {
 			return redirect("assets/index.html");
-		}else{
+		} else {
 			flash("error", "Missing file");
 			return badRequest();
 		}
 	}
-
-
 
 }

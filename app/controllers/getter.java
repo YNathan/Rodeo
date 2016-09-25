@@ -43,7 +43,7 @@ public class getter extends Controller {
 
     public static Result isUserNameAlreadyExist(String szUserName) {
         if (szUserName != null) {
-            if (getterBL.isUserNameAlreadyExist(szUserName)) {
+            if (getterBL.isUserNameExist(szUserName)) {
                 return play.mvc.Results.badRequest("user name already exist");
             }
             return play.mvc.Results.ok("true");

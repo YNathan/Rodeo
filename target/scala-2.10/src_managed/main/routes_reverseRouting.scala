@@ -1,6 +1,6 @@
 // @SOURCE:C:/devl/work/Rodeo2016-07-28/preprod/conf/routes
-// @HASH:904e37404a456d6ffc6e1f3f688a386a069530ec
-// @DATE:Sun Sep 18 20:41:54 IDT 2016
+// @HASH:11a271a8437024654051e77d91fe56e4db025f8e
+// @DATE:Sun Sep 25 19:53:30 IDT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,9 +13,12 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:35
+// @LINE:33
 // @LINE:32
 // @LINE:30
 // @LINE:29
+// @LINE:28
 // @LINE:27
 // @LINE:26
 // @LINE:25
@@ -138,8 +141,11 @@ def isLoginPermited(Username:String, Password:String): Call = {
 }
                           
 
+// @LINE:33
+// @LINE:32
 // @LINE:30
 // @LINE:29
+// @LINE:28
 // @LINE:20
 // @LINE:19
 // @LINE:18
@@ -154,7 +160,7 @@ def confirm(szDebterName:String, szAmount:String, szEntitledName:String): Call =
 }
                                                 
 
-// @LINE:29
+// @LINE:32
 def uploadFile(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "upload")
 }
@@ -178,9 +184,27 @@ def registerNewUser(userName:String, firstName:String, lastName:String, telephon
 }
                                                 
 
+// @LINE:28
+def newTempGelt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "INSERT_TEMP_GELT/" + implicitly[PathBindable[String]].unbind("szDebterName", dynamicString(szDebterName)) + "/" + implicitly[PathBindable[String]].unbind("szAmount", dynamicString(szAmount)) + "/" + implicitly[PathBindable[String]].unbind("szEntitledName", dynamicString(szEntitledName)) + "/" + implicitly[PathBindable[String]].unbind("szGroupName", dynamicString(szGroupName)))
+}
+                                                
+
 // @LINE:30
+def notConfirmDebt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "NOT_CONFIRM_DEBT/" + implicitly[PathBindable[String]].unbind("szDebterName", dynamicString(szDebterName)) + "/" + implicitly[PathBindable[String]].unbind("szAmount", dynamicString(szAmount)) + "/" + implicitly[PathBindable[String]].unbind("szEntitledName", dynamicString(szEntitledName)) + "/" + implicitly[PathBindable[String]].unbind("szGroupName", dynamicString(szGroupName)))
+}
+                                                
+
+// @LINE:33
 def uploadFileWithName(szUserName:String): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "upload/" + implicitly[PathBindable[String]].unbind("szUserName", dynamicString(szUserName)))
+}
+                                                
+
+// @LINE:29
+def confirmDebt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "CONFIRM_DEBT/" + implicitly[PathBindable[String]].unbind("szDebterName", dynamicString(szDebterName)) + "/" + implicitly[PathBindable[String]].unbind("szAmount", dynamicString(szAmount)) + "/" + implicitly[PathBindable[String]].unbind("szEntitledName", dynamicString(szEntitledName)) + "/" + implicitly[PathBindable[String]].unbind("szGroupName", dynamicString(szGroupName)))
 }
                                                 
 
@@ -193,11 +217,11 @@ def newGelt(szDebterName:String, szAmount:String, szEntitledName:String): Call =
 }
                           
 
-// @LINE:32
+// @LINE:35
 class ReverseAssets {
     
 
-// @LINE:32
+// @LINE:35
 def at(file:String): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
 }
@@ -236,9 +260,12 @@ def index(): Call = {
                   
 
 
+// @LINE:35
+// @LINE:33
 // @LINE:32
 // @LINE:30
 // @LINE:29
+// @LINE:28
 // @LINE:27
 // @LINE:26
 // @LINE:25
@@ -419,8 +446,11 @@ def isLoginPermited : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:33
+// @LINE:32
 // @LINE:30
 // @LINE:29
+// @LINE:28
 // @LINE:20
 // @LINE:19
 // @LINE:18
@@ -440,7 +470,7 @@ def confirm : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:29
+// @LINE:32
 def uploadFile : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.setter.uploadFile",
    """
@@ -484,12 +514,45 @@ def registerNewUser : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
+// @LINE:28
+def newTempGelt : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.setter.newTempGelt",
+   """
+      function(szDebterName,szAmount,szEntitledName,szGroupName) {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "INSERT_TEMP_GELT/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szDebterName", encodeURIComponent(szDebterName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szAmount", encodeURIComponent(szAmount)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szEntitledName", encodeURIComponent(szEntitledName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szGroupName", encodeURIComponent(szGroupName))})
+      }
+   """
+)
+                        
+
 // @LINE:30
+def notConfirmDebt : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.setter.notConfirmDebt",
+   """
+      function(szDebterName,szAmount,szEntitledName,szGroupName) {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "NOT_CONFIRM_DEBT/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szDebterName", encodeURIComponent(szDebterName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szAmount", encodeURIComponent(szAmount)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szEntitledName", encodeURIComponent(szEntitledName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szGroupName", encodeURIComponent(szGroupName))})
+      }
+   """
+)
+                        
+
+// @LINE:33
 def uploadFileWithName : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.setter.uploadFileWithName",
    """
       function(szUserName) {
       return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "upload/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szUserName", encodeURIComponent(szUserName))})
+      }
+   """
+)
+                        
+
+// @LINE:29
+def confirmDebt : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.setter.confirmDebt",
+   """
+      function(szDebterName,szAmount,szEntitledName,szGroupName) {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "CONFIRM_DEBT/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szDebterName", encodeURIComponent(szDebterName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szAmount", encodeURIComponent(szAmount)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szEntitledName", encodeURIComponent(szEntitledName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szGroupName", encodeURIComponent(szGroupName))})
       }
    """
 )
@@ -509,11 +572,11 @@ def newGelt : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:32
+// @LINE:35
 class ReverseAssets {
     
 
-// @LINE:32
+// @LINE:35
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -572,9 +635,12 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
+// @LINE:35
+// @LINE:33
 // @LINE:32
 // @LINE:30
 // @LINE:29
+// @LINE:28
 // @LINE:27
 // @LINE:26
 // @LINE:25
@@ -690,8 +756,11 @@ def isLoginPermited(Username:String, Password:String): play.api.mvc.HandlerRef[_
 }
                           
 
+// @LINE:33
+// @LINE:32
 // @LINE:30
 // @LINE:29
+// @LINE:28
 // @LINE:20
 // @LINE:19
 // @LINE:18
@@ -706,7 +775,7 @@ def confirm(szDebterName:String, szAmount:String, szEntitledName:String): play.a
 )
                       
 
-// @LINE:29
+// @LINE:32
 def uploadFile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.setter.uploadFile(), HandlerDef(this, "controllers.setter", "uploadFile", Seq(), "POST", """ Upload file to the server""", _prefix + """upload""")
 )
@@ -730,9 +799,27 @@ def registerNewUser(userName:String, firstName:String, lastName:String, telephon
 )
                       
 
+// @LINE:28
+def newTempGelt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.setter.newTempGelt(szDebterName, szAmount, szEntitledName, szGroupName), HandlerDef(this, "controllers.setter", "newTempGelt", Seq(classOf[String], classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """INSERT_TEMP_GELT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>""")
+)
+                      
+
 // @LINE:30
+def notConfirmDebt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.setter.notConfirmDebt(szDebterName, szAmount, szEntitledName, szGroupName), HandlerDef(this, "controllers.setter", "notConfirmDebt", Seq(classOf[String], classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """NOT_CONFIRM_DEBT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>""")
+)
+                      
+
+// @LINE:33
 def uploadFileWithName(szUserName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.setter.uploadFileWithName(szUserName), HandlerDef(this, "controllers.setter", "uploadFileWithName", Seq(classOf[String]), "POST", """""", _prefix + """upload/$szUserName<[^/]+>""")
+)
+                      
+
+// @LINE:29
+def confirmDebt(szDebterName:String, szAmount:String, szEntitledName:String, szGroupName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.setter.confirmDebt(szDebterName, szAmount, szEntitledName, szGroupName), HandlerDef(this, "controllers.setter", "confirmDebt", Seq(classOf[String], classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """CONFIRM_DEBT/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>/$szGroupName<[^/]+>""")
 )
                       
 
@@ -745,11 +832,11 @@ def newGelt(szDebterName:String, szAmount:String, szEntitledName:String): play.a
 }
                           
 
-// @LINE:32
+// @LINE:35
 class ReverseAssets {
     
 
-// @LINE:32
+// @LINE:35
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
