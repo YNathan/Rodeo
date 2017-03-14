@@ -27,7 +27,7 @@ public class setterDB {
     private static String TABLE_TEMP_DEBTS_NAME = "yankalee.temp_debts";
     private static String TABLE_USERS_NAME = "yankalee.users";
     private static String DATA_BASE_USER_NAME = "root";
-    private static String DATA_BASE_PASSWORD_NAME = "Ny7516399";
+    private static String DATA_BASE_PASSWORD_NAME = "sh123456";
 
     /**
      * @param m_gelts
@@ -242,17 +242,14 @@ public class setterDB {
      * Register a new user into the data-base
      *
      * @param userName  - user name
-     * @param firstName - first name
-     * @param lastName  - last name
      * @param telephone - telephone
      * @param email     - email
      * @param password  - password
-     * @param birthdate - birthdate
      * @return
      * @throws Exception
      */
-    public boolean registerNewUser(String userName, String firstName, String lastName, String telephone, String email,
-                                   String password, Date birthdate) throws Exception {
+    public boolean registerNewUser(String userName, String telephone, String email,
+                                   String password) throws Exception {
 
         boolean bWasRegister = true;
         // INFO
@@ -261,12 +258,9 @@ public class setterDB {
         System.out.println("============================");
         System.out.println("For : =>>");
         System.out.println("User name : " + userName);
-        System.out.println("First name : " + firstName);
-        System.out.println("Last name : " + lastName);
         System.out.println("Telephone : " + telephone);
         System.out.println("Email : " + email);
         System.out.println("Password : " + password);
-        System.out.println("Birthdate : " + birthdate);
         System.out.println("============================");
 
         try {
@@ -286,16 +280,13 @@ public class setterDB {
 
             // PreparedStatements can use variables and are more efficient
             preparedStatement = connect.prepareStatement("insert into " + TABLE_USERS_NAME
-                    + " (user_name,first_name,last_name,telephone,email,password,birthdate) values (?, ?, ?, ?, ? , ?, ?)");
+                    + " (user_name,telephone,email,password) values (?, ?, ?, ?)");
             play.Logger.info(" Insert new user to the data-base");
             // Parameters start with 1
             preparedStatement.setString(1, userName);
-            preparedStatement.setString(2, firstName);
-            preparedStatement.setString(3, lastName);
-            preparedStatement.setString(4, telephone);
-            preparedStatement.setString(5, email);
-            preparedStatement.setString(6, password);
-            preparedStatement.setDate(7, birthdate);
+            preparedStatement.setString(2, telephone);
+            preparedStatement.setString(3, email);
+            preparedStatement.setString(4, password);
             preparedStatement.executeUpdate();
             System.out.println("registered successfully!!!");
             System.out.println("============================");

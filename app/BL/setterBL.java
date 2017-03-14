@@ -210,32 +210,25 @@ public class setterBL {
 	 * Registering a new user into the system.
 	 * 
 	 * @param szUserName
-	 * @param szFirstName
-	 * @param szLastName
 	 * @param szTelephone
 	 * @param szEmail
 	 * @param szPassword
-	 * @param szBirthdate
 	 * @return
 	 * @throws Exception
 	 */
-	public boolean registerNewUser(String szUserName, String szFirstName, String szLastName, String szTelephone,
-			String szEmail, String szPassword, String szBirthdate) throws Exception {
+	public boolean registerNewUser(String szUserName, String szTelephone,
+			String szEmail, String szPassword) throws Exception {
 		// INFO
 		play.Logger.info("<BUISNESS_LOGIC> Register new user : ");
 		play.Logger.info("============================");
 		play.Logger.info("For : =>>");
 		play.Logger.info("User name : " + szUserName);
-		play.Logger.info("First name : " + szFirstName);
-		play.Logger.info("Last name : " + szLastName);
 		play.Logger.info("Telephone : " + szTelephone);
 		play.Logger.info("Email : " + szEmail);
 		play.Logger.info("Password : " + szPassword);
-		play.Logger.info("Birthdate : " + szBirthdate);
 		play.Logger.info("============================");
 		boolean isRegitred = false;
-		if (setterDB.registerNewUser(szUserName, szFirstName, szLastName, szTelephone, szEmail, szPassword,
-				getterBL.getDateByString(szBirthdate))) {
+		if (setterDB.registerNewUser(szUserName, szTelephone, szEmail, szPassword)) {
 			isRegitred = true;
 		}
 		return isRegitred;

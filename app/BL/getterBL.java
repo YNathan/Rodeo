@@ -345,7 +345,7 @@ public class getterBL {
         int nUserId = getterDB.getUserIdByName(szUserName);
         StringBuilder sbUserInformationToReturn = new StringBuilder();
         User userToReturn = getterDB.getUser(nUserId);
-        sbUserInformationToReturn.append("{ \"user\":[ {\"user_name\":\"" + userToReturn.getUserName() + "\",\"first_name\":\"" + userToReturn.getfirstName() + "\",\"last_name\":\"" + userToReturn.getLastName() + "\",\"email\":\"" + userToReturn.getEmail() + "\",\"telephone\":\"" + userToReturn.getTelephone() + "\",\"password\":\"" + userToReturn.getPassword() + "\",\"birthdate\":\"" + userToReturn.getBirthday() + "\",\"user_id\":\"" + userToReturn.getUserId() + "\"} ]}");
+        sbUserInformationToReturn.append("{ \"user\":[ {\"user_name\":\"" + userToReturn.getUserName() + "\",\"email\":\"" + userToReturn.getEmail() + "\",\"telephone\":\"" + userToReturn.getTelephone() + "\",\"password\":\"" + userToReturn.getPassword() + "\",\"user_id\":\"" + userToReturn.getUserId() + "\"} ]}");
         return sbUserInformationToReturn;
     }
 

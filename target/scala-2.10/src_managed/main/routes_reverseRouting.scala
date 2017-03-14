@@ -1,6 +1,6 @@
-// @SOURCE:C:/devl/work/Rodeo2016-07-28/preprod/conf/routes
-// @HASH:11a271a8437024654051e77d91fe56e4db025f8e
-// @DATE:Sun Sep 25 19:53:30 IDT 2016
+// @SOURCE:C:/devl/work/GIT_WS/Rodeo/conf/routes
+// @HASH:3dbdbbcb6a28c6e2732239b36643cbdb69b27638
+// @DATE:Wed Mar 15 00:44:23 IST 2017
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -172,15 +172,15 @@ def notConfirm(szDebterName:String, szAmount:String, szEntitledName:String): Cal
 }
                                                 
 
-// @LINE:20
-def pay(szDebterName:String, szAmount:String, szEntitledName:String): Call = {
-   Call("POST", _prefix + { _defaultPrefix } + "PAY/" + implicitly[PathBindable[String]].unbind("szDebterName", dynamicString(szDebterName)) + "/" + implicitly[PathBindable[String]].unbind("szAmount", dynamicString(szAmount)) + "/" + implicitly[PathBindable[String]].unbind("szEntitledName", dynamicString(szEntitledName)))
+// @LINE:16
+def registerNewUser(userName:String, telephone:String, email:String, password:String): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "REGISTER/" + implicitly[PathBindable[String]].unbind("userName", dynamicString(userName)) + "/" + implicitly[PathBindable[String]].unbind("telephone", dynamicString(telephone)) + "/" + implicitly[PathBindable[String]].unbind("email", dynamicString(email)) + "/" + implicitly[PathBindable[String]].unbind("password", dynamicString(password)))
 }
                                                 
 
-// @LINE:16
-def registerNewUser(userName:String, firstName:String, lastName:String, telephone:String, email:String, password:String, birthdate:String): Call = {
-   Call("POST", _prefix + { _defaultPrefix } + "REGISTER/" + implicitly[PathBindable[String]].unbind("userName", dynamicString(userName)) + "/" + implicitly[PathBindable[String]].unbind("firstName", dynamicString(firstName)) + "/" + implicitly[PathBindable[String]].unbind("lastName", dynamicString(lastName)) + "/" + implicitly[PathBindable[String]].unbind("telephone", dynamicString(telephone)) + "/" + implicitly[PathBindable[String]].unbind("email", dynamicString(email)) + "/" + implicitly[PathBindable[String]].unbind("password", dynamicString(password)) + "/" + implicitly[PathBindable[String]].unbind("birthdate", dynamicString(birthdate)))
+// @LINE:20
+def pay(szDebterName:String, szAmount:String, szEntitledName:String): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "PAY/" + implicitly[PathBindable[String]].unbind("szDebterName", dynamicString(szDebterName)) + "/" + implicitly[PathBindable[String]].unbind("szAmount", dynamicString(szAmount)) + "/" + implicitly[PathBindable[String]].unbind("szEntitledName", dynamicString(szEntitledName)))
 }
                                                 
 
@@ -492,23 +492,23 @@ def notConfirm : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
+// @LINE:16
+def registerNewUser : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.setter.registerNewUser",
+   """
+      function(userName,telephone,email,password) {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "REGISTER/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("userName", encodeURIComponent(userName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("telephone", encodeURIComponent(telephone)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("email", encodeURIComponent(email)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("password", encodeURIComponent(password))})
+      }
+   """
+)
+                        
+
 // @LINE:20
 def pay : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.setter.pay",
    """
       function(szDebterName,szAmount,szEntitledName) {
       return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "PAY/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szDebterName", encodeURIComponent(szDebterName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szAmount", encodeURIComponent(szAmount)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("szEntitledName", encodeURIComponent(szEntitledName))})
-      }
-   """
-)
-                        
-
-// @LINE:16
-def registerNewUser : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.setter.registerNewUser",
-   """
-      function(userName,firstName,lastName,telephone,email,password,birthdate) {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "REGISTER/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("userName", encodeURIComponent(userName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("firstName", encodeURIComponent(firstName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("lastName", encodeURIComponent(lastName)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("telephone", encodeURIComponent(telephone)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("email", encodeURIComponent(email)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("password", encodeURIComponent(password)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("birthdate", encodeURIComponent(birthdate))})
       }
    """
 )
@@ -787,15 +787,15 @@ def notConfirm(szDebterName:String, szAmount:String, szEntitledName:String): pla
 )
                       
 
-// @LINE:20
-def pay(szDebterName:String, szAmount:String, szEntitledName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.setter.pay(szDebterName, szAmount, szEntitledName), HandlerDef(this, "controllers.setter", "pay", Seq(classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """PAY/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""")
+// @LINE:16
+def registerNewUser(userName:String, telephone:String, email:String, password:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.setter.registerNewUser(userName, telephone, email, password), HandlerDef(this, "controllers.setter", "registerNewUser", Seq(classOf[String], classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """REGISTER/$userName<[^/]+>/$telephone<[^/]+>/$email<[^/]+>/$password<[^/]+>""")
 )
                       
 
-// @LINE:16
-def registerNewUser(userName:String, firstName:String, lastName:String, telephone:String, email:String, password:String, birthdate:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.setter.registerNewUser(userName, firstName, lastName, telephone, email, password, birthdate), HandlerDef(this, "controllers.setter", "registerNewUser", Seq(classOf[String], classOf[String], classOf[String], classOf[String], classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """REGISTER/$userName<[^/]+>/$firstName<[^/]+>/$lastName<[^/]+>/$telephone<[^/]+>/$email<[^/]+>/$password<[^/]+>/$birthdate<[^/]+>""")
+// @LINE:20
+def pay(szDebterName:String, szAmount:String, szEntitledName:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.setter.pay(szDebterName, szAmount, szEntitledName), HandlerDef(this, "controllers.setter", "pay", Seq(classOf[String], classOf[String], classOf[String]), "POST", """""", _prefix + """PAY/$szDebterName<[^/]+>/$szAmount<[^/]+>/$szEntitledName<[^/]+>""")
 )
                       
 

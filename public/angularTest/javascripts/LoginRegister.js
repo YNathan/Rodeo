@@ -1,11 +1,8 @@
 app.controller('wellcom', ['$scope', '$http', '$filter', '$state', '$mdDialog', function ($scope, $http, $filter, $state, $mdDialog) {
     $scope.userName = 'RobertDupont';
-    $scope.firstName = "Robert";
-    $scope.lastName = "Dupont";
     $scope.telephone;
     $scope.email = "Robert@gmail.com";
     $scope.password = "a";
-    $scope.birthdate = 01 / 01 / 1990;
 
     // For login scope
     $scope.Username = 'Y.Nathan';
@@ -78,12 +75,11 @@ app.controller('wellcom', ['$scope', '$http', '$filter', '$state', '$mdDialog', 
                         url: '/CHECK_EMAIL/' + email
                     })
                         .then(function successCallback(response) {
-                                var birthdateOrder = $filter('date')($scope.birthdate, 'yyyy-MM-dd');
                                 setUserNameCookie("username", userName);
                                 // Register new user
                                 $http({
                                     method: 'POST',
-                                    url: '/REGISTER/' + userName + '/' + $scope.firstName + '/' + $scope.lastName + '/' + $scope.telephone + '/' + $scope.email + '/' + $scope.password + '/' + birthdateOrder
+                                    url: '/REGISTER/' + userName + '/' + $scope.telephone + '/' + $scope.email + '/' + $scope.password
                                 }).then(
                                     function successCallback(response) {
                                         alert("Register successful!");

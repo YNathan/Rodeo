@@ -1,166 +1,53 @@
-2016-10-19 00:21:18,611 - [INFO] - from play in pool-4-thread-2 
-Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2017-03-15 01:05:14,261 - [INFO] - from play in pool-4-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:80
 
-2016-10-19 16:22:20,313 - [INFO] Application started (Dev)
-2016-10-19 16:42:12,424 - [INFO] <GETTER> Clien in IP : 0:0:0:0:0:0:0:1 Trying to connect
-2016-10-19 16:42:12,426 - [INFO] <BUSINESS_LOGIC> Get is login permited
-2016-10-19 16:42:12,903 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:12,931 - [INFO] <MAIL>Set the mail propeties ===> setup Mail Server Properties..
-2016-10-19 16:42:12,931 - [INFO] <MAIL>Set the mail propeties ===> Mail Server Properties have been setup successfully..
-2016-10-19 16:42:12,932 - [INFO] <MAIL> Send the mail ===> get Mail Session..
-2016-10-19 16:42:13,005 - [INFO] <MAIL> Send the mail ===> Mail Session has been created successfully..
-2016-10-19 16:42:13,006 - [INFO] <MAIL> Send the mail ===> Get Session and Send mail
-2016-10-19 16:42:18,284 - [INFO] <MAIL> Your Java Program has just sent an Email successfully. Check your email..
-2016-10-19 16:42:18,285 - [INFO] <GETTER> Y.Nathan is login from IP: 0:0:0:0:0:0:0:1
-2016-10-19 16:42:18,498 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-10-19 16:42:18,515 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,522 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-10-19 16:42:18,522 - [INFO] <BUSINESS_LOGIC> Get users
-2016-10-19 16:42:18,523 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-10-19 16:42:18,545 - [INFO] <DATA_BASE> Get Gelts
-2016-10-19 16:42:18,547 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,558 - [INFO] <DATA_BASE> Get User-Names
-2016-10-19 16:42:18,606 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-10-19 16:42:18,607 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-10-19 16:42:18,617 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,618 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,626 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,627 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
-2016-10-19 16:42:18,627 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,636 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,637 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,644 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,644 - [INFO] <BUSINESS_LOGIC> Get debt hello : 100 : Y.Nathan
-2016-10-19 16:42:18,644 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,652 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,653 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,661 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,661 - [INFO] <BUSINESS_LOGIC> Get debt George : 400 : Y.Nathan
-2016-10-19 16:42:18,661 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,672 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,672 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,692 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,692 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,704 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,705 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,720 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,720 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,729 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,730 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:18,737 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:18,738 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"}, {"Debter":"hello","Amount":"100","Entitled":"Y.Nathan"}, {"Debter":"George","Amount":"400","Entitled":"Y.Nathan"} ]}
-2016-10-19 16:42:38,455 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-10-19 16:42:38,456 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-10-19 16:42:38,482 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-10-19 16:42:38,483 - [INFO] <GETTER> <DATA>
-2016-10-19 16:42:41,299 - [INFO] <GETTER> Y.Nathan ask groups information on the user
-2016-10-19 16:42:41,299 - [INFO] <GETTER> Y.Nathan ask information on the user
-2016-10-19 16:42:41,300 - [INFO] <BUSINESS_LOGIC> Get the groups information for the user name : Y.Nathan
-2016-10-19 16:42:41,301 - [INFO] <BUSINESS_LOGIC> Get user information with user name : Y.Nathan
-2016-10-19 16:42:41,308 - [INFO] <DATA_BASE> Get user-id by user-name
-2016-10-19 16:42:41,314 - [INFO] <DATA_BASE> Get User id: 1
-2016-10-19 16:42:41,314 - [INFO] <DATA_BASE> Get user-id by user-name
-2016-10-19 16:42:41,331 - [INFO] <DATA_BASE> Get User Name for id: 17
-2016-10-19 16:42:41,339 - [INFO] <DATA_BASE> Get User id: 1
-2016-10-19 16:42:41,339 - [INFO] <GETTER> <DATA>{ "user":[ {"user_name":"Y.Nathan","first_name":"yaacov","last_name":"nathan","email":"yaacovisraelnathan@gmail.com","telephone":"0527879217","password":"a","birthdate":"1990","user_id":"1"} ]}
-2016-10-19 16:42:41,346 - [INFO] <DATA_BASE> Get User Name for id: 4
-2016-10-19 16:42:41,346 - [INFO] <GETTER> <DATA>{ "groups":[ {"group_name":"test3","group_owner_name":"יצחק אלחנן"}, {"group_name":"test2","group_owner_name":"Moyshale"} ]}
-2016-10-19 16:42:42,869 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask owner information on the user : יצחק אלחנן
-2016-10-19 16:42:42,885 - [INFO] <BUSINESS_LOGIC> Get user information with user name : יצחק אלחנן
-2016-10-19 16:42:42,900 - [INFO] <DATA_BASE> Get user-id by user-name
-2016-10-19 16:42:42,907 - [INFO] <DATA_BASE> Get User id: 17
-2016-10-19 16:42:42,907 - [INFO] <GETTER> <DATA>{ "user":[ {"user_name":"יצחק אלחנן","email":"Robersedft@gmail.com","telephone":"56406"} ]}
-2016-10-19 16:42:47,099 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-10-19 16:42:47,100 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-10-19 16:42:47,100 - [INFO] <BUSINESS_LOGIC> Get users
-2016-10-19 16:42:47,100 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-10-19 16:42:47,106 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,116 - [INFO] <DATA_BASE> Get Gelts
-2016-10-19 16:42:47,117 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,124 - [INFO] <DATA_BASE> Get User-Names
-2016-10-19 16:42:47,133 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-10-19 16:42:47,133 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-10-19 16:42:47,143 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,143 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,151 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,151 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
-2016-10-19 16:42:47,151 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,157 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,157 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,162 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,163 - [INFO] <BUSINESS_LOGIC> Get debt hello : 100 : Y.Nathan
-2016-10-19 16:42:47,163 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,168 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,168 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,172 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,173 - [INFO] <BUSINESS_LOGIC> Get debt George : 400 : Y.Nathan
-2016-10-19 16:42:47,173 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,178 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,178 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,182 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,183 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,187 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,187 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,193 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,193 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,198 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,198 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:47,202 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:47,202 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"}, {"Debter":"hello","Amount":"100","Entitled":"Y.Nathan"}, {"Debter":"George","Amount":"400","Entitled":"Y.Nathan"} ]}
-2016-10-19 16:42:50,124 - [INFO] <GETTER> Y.Nathan ask groups information on the user
-2016-10-19 16:42:50,124 - [INFO] <GETTER> Y.Nathan ask information on the user
-2016-10-19 16:42:50,125 - [INFO] <BUSINESS_LOGIC> Get the groups information for the user name : Y.Nathan
-2016-10-19 16:42:50,125 - [INFO] <BUSINESS_LOGIC> Get user information with user name : Y.Nathan
-2016-10-19 16:42:50,132 - [INFO] <DATA_BASE> Get user-id by user-name
-2016-10-19 16:42:50,142 - [INFO] <DATA_BASE> Get User id: 1
-2016-10-19 16:42:50,147 - [INFO] <DATA_BASE> Get User Name for id: 17
-2016-10-19 16:42:50,152 - [INFO] <DATA_BASE> Get User Name for id: 4
-2016-10-19 16:42:50,153 - [INFO] <GETTER> <DATA>{ "groups":[ {"group_name":"test3","group_owner_name":"יצחק אלחנן"}, {"group_name":"test2","group_owner_name":"Moyshale"} ]}
-2016-10-19 16:42:50,158 - [INFO] <DATA_BASE> Get user-id by user-name
-2016-10-19 16:42:50,163 - [INFO] <DATA_BASE> Get User id: 1
-2016-10-19 16:42:50,163 - [INFO] <GETTER> <DATA>{ "user":[ {"user_name":"Y.Nathan","first_name":"yaacov","last_name":"nathan","email":"yaacovisraelnathan@gmail.com","telephone":"0527879217","password":"a","birthdate":"1990","user_id":"1"} ]}
-2016-10-19 16:42:52,497 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : Y.Nathan
-2016-10-19 16:42:52,497 - [INFO] <BUSINESS_LOGIC> Get users
-2016-10-19 16:42:52,498 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : Y.Nathan
-2016-10-19 16:42:52,498 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-10-19 16:42:52,503 - [INFO] <DATA_BASE> Get User-Names
-2016-10-19 16:42:52,512 - [INFO] <DATA_BASE> Get group names of user name Y.Nathan
-2016-10-19 16:42:52,513 - [INFO] <GETTER> <DATA>[test3, test2]
-2016-10-19 16:42:52,522 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,531 - [INFO] <DATA_BASE> Get Gelts
-2016-10-19 16:42:52,532 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,537 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,537 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,545 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,545 - [INFO] <BUSINESS_LOGIC> Get debt הי : 6580 : Y.Nathan
-2016-10-19 16:42:52,545 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,550 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,550 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,555 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,556 - [INFO] <BUSINESS_LOGIC> Get debt hello : 100 : Y.Nathan
-2016-10-19 16:42:52,556 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,562 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,562 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,568 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,568 - [INFO] <BUSINESS_LOGIC> Get debt George : 400 : Y.Nathan
-2016-10-19 16:42:52,568 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,573 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,574 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,578 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,578 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,583 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,583 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,588 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,589 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,595 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,595 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-10-19 16:42:52,600 - [INFO] <DATA_BASE> Get Users
-2016-10-19 16:42:52,601 - [INFO] { "debts":[ {"Debter":"הי","Amount":"6580","Entitled":"Y.Nathan"}, {"Debter":"hello","Amount":"100","Entitled":"Y.Nathan"}, {"Debter":"George","Amount":"400","Entitled":"Y.Nathan"} ]}
-2016-10-19 16:42:58,396 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-10-19 16:42:58,396 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-10-19 16:42:58,404 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-10-19 16:42:58,405 - [INFO] <GETTER> <DATA>
-2016-10-19 16:43:07,090 - [INFO] <GETTER> Y.Nathan ask if is debter
-2016-10-19 16:43:07,091 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-10-19 16:43:07,096 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-10-19 16:43:07,096 - [INFO] <GETTER> <DATA>
+2017-03-15 01:08:06,387 - [INFO] Application started (Dev)
+2017-03-15 01:08:06,663 - [INFO] <BUSINESS_LOGIC> Get is user_name exist
+2017-03-15 01:08:06,810 - [INFO] <DATA_BASE> Get User-Names
+2017-03-15 01:08:07,295 - [INFO] <BUSINESS_LOGIC> Get is email already exist
+2017-03-15 01:08:07,295 - [INFO] <DATA_BASE> Get Emails
+2017-03-15 01:08:07,755 - [INFO] <SETTER> Register new user : 
+============================
+For : =>>
+User name : RobertDupont
+Telephone : 23
+Email : 123@gmail.com
+Password : a
+============================
+
+2017-03-15 01:08:07,755 - [INFO] <BUISNESS_LOGIC> Register new user : 
+2017-03-15 01:08:07,755 - [INFO] ============================
+2017-03-15 01:08:07,755 - [INFO] For : =>>
+2017-03-15 01:08:07,755 - [INFO] User name : RobertDupont
+2017-03-15 01:08:07,755 - [INFO] Telephone : 23
+2017-03-15 01:08:07,755 - [INFO] Email : 123@gmail.com
+2017-03-15 01:08:07,755 - [INFO] Password : a
+2017-03-15 01:08:07,755 - [INFO] ============================
+2017-03-15 01:08:07,755 - [INFO]  01:08:07 <SETTER> Register new user : 
+2017-03-15 01:08:07,755 - [INFO]  Insert new user to the data-base
+2017-03-15 01:08:10,957 - [INFO] <GETTER> 0:0:0:0:0:0:0:1 ask groups name of the user : RobertDupont
+2017-03-15 01:08:10,957 - [INFO] <BUSINESS_LOGIC> Get the groups name for the user name : RobertDupont
+2017-03-15 01:08:10,972 - [INFO] <DATA_BASE> Get group names of user name RobertDupont
+2017-03-15 01:08:10,972 - [INFO] <GETTER> <DATA>[]
+2017-03-15 01:08:12,675 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2017-03-15 01:08:12,685 - [INFO] <DATA_BASE> Get Users
+2017-03-15 01:08:12,693 - [INFO] <DATA_BASE> Get Gelts
+2017-03-15 01:08:12,693 - [INFO] { "debts":[ ]}
+2017-03-15 01:08:13,152 - [INFO] <BUSINESS_LOGIC> Get users
+2017-03-15 01:08:13,175 - [INFO] <DATA_BASE> Get User-Names
+2017-03-15 01:08:30,993 - [INFO] <GETTER> RobertDupont ask if is debter
+2017-03-15 01:08:30,993 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2017-03-15 01:08:31,009 - [INFO] <DATA_BASE> Get Temp Gelts
+2017-03-15 01:08:31,009 - [INFO] <GETTER> <DATA>
+2017-03-15 01:08:50,936 - [INFO] <GETTER> RobertDupont ask if is debter
+2017-03-15 01:08:50,952 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2017-03-15 01:08:50,952 - [INFO] <DATA_BASE> Get Temp Gelts
+2017-03-15 01:08:50,952 - [INFO] <GETTER> <DATA>
+2017-03-15 01:09:10,936 - [INFO] <GETTER> RobertDupont ask if is debter
+2017-03-15 01:09:10,936 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2017-03-15 01:09:10,936 - [INFO] <DATA_BASE> Get Temp Gelts
+2017-03-15 01:09:10,936 - [INFO] <GETTER> <DATA>
+2017-03-15 01:09:30,984 - [INFO] <GETTER> RobertDupont ask if is debter
+2017-03-15 01:09:30,984 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2017-03-15 01:09:31,001 - [INFO] <DATA_BASE> Get Temp Gelts
+2017-03-15 01:09:31,002 - [INFO] <GETTER> <DATA>

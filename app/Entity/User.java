@@ -7,24 +7,18 @@ package Entity;
  */
 public class User {
 	private String szUserName;
-	private String szfirstName;
-	private String szLastName;
 	private String szTelephone;
 	private String szEmail;
 	private String szPassword;
-	private String szBirthday;
 	private String szUserId;
 
-	public User(String szUserName, String szfirstName, String szLastName, String szTelephone, String szEmail,
-			String szPassword, String szBirthday, String szUserId) {
+	public User(String szUserName, String szTelephone, String szEmail,
+			String szPassword, String szUserId) {
 		super();
 		this.szUserName = szUserName;
-		this.szfirstName = szfirstName;
-		this.szLastName = szLastName;
 		this.szTelephone = szTelephone;
 		this.szEmail = szEmail;
 		this.szPassword = szPassword;
-		this.szBirthday = szBirthday;
 		this.szUserId = szUserId;
 	}
 	public String getUserName() {
@@ -33,22 +27,6 @@ public class User {
 
 	public void setUserName(String szUserName) {
 		this.szUserName = szUserName;
-	}
-
-	public String getfirstName() {
-		return szfirstName;
-	}
-
-	public void setfirstName(String szfirstName) {
-		this.szfirstName = szfirstName;
-	}
-
-	public String getLastName() {
-		return szLastName;
-	}
-
-	public void setLastName(String szLastName) {
-		this.szLastName = szLastName;
 	}
 
 	public String getTelephone() {
@@ -75,14 +53,6 @@ public class User {
 		this.szPassword = szPassword;
 	}
 
-	public String getBirthday() {
-		return szBirthday;
-	}
-
-	public void setBirthday(String szBirthday) {
-		this.szBirthday = szBirthday;
-	}
-
 	public String getUserId() {
 		return szUserId;
 	}
@@ -93,10 +63,12 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [UserName=" + szUserName + ", firstName=" + szfirstName + ", LastName=" + szLastName
-				+ ", Telephone=" + szTelephone + ", Email=" + szEmail + ", Password=" + szPassword
-				+ ", Birthday=" + szBirthday + ", UserId=" + szUserId + "]";
+		return "User{" +
+				"szUserName='" + szUserName + '\'' +
+				", szTelephone='" + szTelephone + '\'' +
+				", szEmail='" + szEmail + '\'' +
+				", szPassword='" + szPassword + '\'' +
+				", szUserId='" + szUserId + '\'' +
+				'}';
 	}
-
-
 }

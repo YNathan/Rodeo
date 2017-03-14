@@ -13,7 +13,7 @@ GET         /CHECK_EMAIL/:Email                                                 
 GET         /GET_GELT/:userName                                                                    controllers.getter.getGelts(userName:String)
 GET         /GET_USERS/:userName                                                                   controllers.getter.getUsers(userName:String)
 POST        /INSERT_GELT/:szDebterName/:szAmount/:szEntitledName                                   controllers.setter.newGelt(szDebterName:String,szAmount:String,szEntitledName:String)
-POST        /REGISTER/:userName/:firstName/:lastName/:telephone/:email/:password/:birthdate        controllers.setter.registerNewUser(userName:String,firstName:String,lastName:String,telephone:String,email:String,password:String,birthdate:String)
+POST        /REGISTER/:userName/:telephone/:email/:password                                        controllers.setter.registerNewUser(userName:String,telephone:String,email:String,password:String)
 GET         /IS_DEBTER/:szUserName                                                                 controllers.getter.checkIfUserIsDebter(szUserName:String)
 POST        /CONFIRMATION/:szDebterName/:szAmount/:szEntitledName                                  controllers.setter.confirm(szDebterName:String,szAmount:String,szEntitledName:String)
 POST        /NOT_CONFIRMATION/:szDebterName/:szAmount/:szEntitledName                              controllers.setter.notConfirm(szDebterName:String,szAmount:String,szEntitledName:String)
