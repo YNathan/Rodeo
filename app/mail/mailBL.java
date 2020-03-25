@@ -14,7 +14,7 @@ public class mailBL {
 	// Sender's email ID needs to be mentioned
 	public static final String ENVOYER = "serverhomehouse@gmail.com";
 	final static String username = "serverhomehouse";
-	final static String password = "Ny7516399";
+	final static String password = "";
 
 	static Properties mailServerProperties;
 	static Session getMailSession;
